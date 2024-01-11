@@ -5,6 +5,16 @@
     padding-bottom: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+    .footer>.container {
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: #0f0e0e;
+        padding-top: 40px;
+        padding-bottom: 20px; */
+    }
+}
+
 .logo {
     margin-bottom: 16px;
 }
