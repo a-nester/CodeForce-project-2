@@ -1,11 +1,12 @@
 /* Our Mentors */
+
 .containor {
     /* background-color: #0f0e0e; */
     min-width: 320;
     padding: 0 20px;
 }
 
-@media only screen and (min-width: 768px) {
+*/ @media only screen and (min-width: 768px) {
     .containor {
         padding: 0 30px;
     }
