@@ -77,4 +77,16 @@
       </picture>
     </div>
   </div>
+  <script>
+    const burgerBtn = document.querySelector('.burger-btn');
+    const closeBtn = document.querySelector('.close-btn');
+    const burgerMenu = document.querySelector('.backdrop');
+
+    burgerBtn.addEventListener('click', function () {
+      burgerMenu.classList.add('is-open');
+    });
+    closeBtn.addEventListener('click', function () {
+      burgerMenu.classList.remove('is-open');
+    });
+  </script>
 </header>
