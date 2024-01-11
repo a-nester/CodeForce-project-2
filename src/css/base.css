@@ -28,8 +28,9 @@ body ul {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    min-width: 320px;
     max-width: 375px;
     padding: 0 20px;
     margin-left: auto;
@@ -47,5 +48,12 @@ body ul {
     .container {
         max-width: 1280px;
         padding: 0 100px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        
     }
 }
