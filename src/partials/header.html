@@ -25,7 +25,7 @@
 
   <!-- BURGER MENU -->
 
-  <div class="backgrop is-open">
+  <div class="backdrop">
     <div class="burger-menu">
       <button class="close-btn" type="button">
         <svg class="close-icon" width="16" height="16">
@@ -55,14 +55,25 @@
       <picture class="burger-menu-img">
         <!-- change way to images -->
         <source
-          srcset="./img/mob.jpg 1x, ./img/mob@2x.jpg 2x"
+          srcset="
+            ./img/menu-img/camera_menu_mobile@1x.jpg 1x,
+            ./img/menu-img/camera_menu_mobile@2x.jpg 2x                         2x
+          "
           media="(max-width: 767px)"
         />
         <source
-          srcset="./img/tab.jpg 1x, ./img/tab@2x.jpg 2x"
+          srcset="
+            ./img/menu-img/camera_menu_tablet@1x.jpg 1x,
+            ./img/menu-img/camera_menu_tablet@2x.jpg 2x                         2x
+          "
           media="(min-width: 768px)"
         />
-        <img src="./img/mob.jpg" alt="Camera" width="329" height="218" />
+        <img
+          src="./img/menu-img/camera_menu_mobile@1x.jpg"
+          alt="Camera"
+          width="329"
+          height="218"
+        />
       </picture>
     </div>
   </div>

@@ -67,8 +67,7 @@
 /* BURGER MENU */
 
 .backdrop {
-  /* background-color: rgba(18, 18, 18, 0.40); */
-  background-color: red;
+  background-color: rgba(18, 18, 18, 0.40);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -96,6 +95,7 @@
   right: 0;
   padding: 20px;
 
+
   /* display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -117,10 +117,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* reset styles */
-  border: none;
-  padding: 0;
+  margin-bottom: 128px;
 }
 
 .close-icon {
@@ -131,6 +128,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin: auto o;
 }
 .nav-link {
   color: #121212;
