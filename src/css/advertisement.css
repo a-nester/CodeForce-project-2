@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.advertisement {
+}
+.advertisement-inner {
+}
+.text-line {
+  color: #bea69e;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.text-decor {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
