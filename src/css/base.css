@@ -28,8 +28,8 @@ body ul {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     min-width: 320px;
     max-width: 375px;
     padding: 0 20px;
