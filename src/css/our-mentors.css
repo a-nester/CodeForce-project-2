@@ -1,0 +1,88 @@
+/* Our Mentors */
+.containor {
+    background-color: #0f0e0e;
+    max-width: 376px;
+    padding: 0 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 0 30px;
+    }
+
+}
+
+.mentors {}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 16px;
+
+}
+
+.title-mentors {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+}
+
+.style-mentors {
+    color: #BEA69E;
+}
+
+ul {}
+
+.card-mentor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 16px;
+
+}
+
+.resume-mentor {
+    margin: 0 auto;
+    display: block;
+    max-width: 148px;
+}
+
+.name-mentor {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.experience-mentor {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.24px;
+}
