@@ -23,7 +23,7 @@ letter-spacing: -1.12px;
 padding-bottom: 40px;
 
 }
-
+/* ... */
 @media only screen and (min-width: 768px) {
 .title-about {
 font-size: 48px;
