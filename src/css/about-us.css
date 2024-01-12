@@ -1,13 +1,18 @@
-img {
+.img {
 width: 100%;
 height: 100%;
-       
+border-radius: 0; 
 }
 .about-section {
 padding-top: 80px;
 padding-bottom: 40px;
 }
-
+@media only screen and (min-width: 1200px) {
+  .about-section {
+    padding-top: 100px;
+    
+  }
+}
 .title-about {
 color: #FFF;
 font-family: DM Sans;
@@ -103,9 +108,15 @@ letter-spacing: -0.32px;
  flex-direction: row;
  gap: 40px;
  padding-top: 50px;
-align-items: flex-start;
+ align-items: flex-start;
         
-    }
+}
+}
+@media only screen and (min-width: 1200px) {
+  .text-p {
+    padding-top: 0px;
+    gap: 20px;
+  }
 }
 @media only screen and (min-width: 768px) {
  .width  {
@@ -118,5 +129,16 @@ align-items: flex-start;
 .width-p {
     width: 280px;
     height: 215px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .desc {
+  /* display: flex;
+  
+  flex-wrap: nowrap; */
+  display: inline-flex;
+  flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
   }
 }
