@@ -20,22 +20,117 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/CodeForce-project-2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/CodeForce-project-2/assets/index-305880b8.css">
+    <link rel="stylesheet" href="/CodeForce-project-2/assets/index-4749b7a2.css">
   </head>
   <body>
     <!--  style="font-family: DM Sans; color: #fff; background-color: #121212" -->
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+    <!-- HEADER -->
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+<header class="header">
+  <div class="container">
+    <div class="wrapper">
+      <a href="index.html" class="logo-link">
+        <svg class="header-logo" width="123" height="16">
+          <use href="/CodeForce-project-2/assets/icons-b2db973c.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Our courses</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Our mentors</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="group">
+        <a href="#" class="link-camera">
+          <svg class="camera-icon" width="16" height="16">
+            <use href="/CodeForce-project-2/assets/icons-b2db973c.svg#icon-camera"></use>
+          </svg>
+        </a>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="32" height="22">
+            <use href="/CodeForce-project-2/assets/icons-b2db973c.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <a href="#" class="link-sign-up"> Sign up</a>
+  </div>
+
+  <!-- BURGER MENU -->
+
+  <div class="backdrop">
+    <div class="burger-menu">
+      <button class="close-btn" type="button">
+        <svg class="close-icon" width="16" height="16">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <nav class="mob-navigation">
+        <ul class="mob-nav-list">
+          <li>
+            <a class="nav-link accent" href="#">About us</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Our courses</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Our mentors</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <picture class="burger-menu-img">
+        <source
+          srcset="/CodeForce-project-2/assets/camera_menu_mobile@1x-01b92e02.jpg 1x, /CodeForce-project-2/assets/camera_menu_mobile@2x-f4dd4437.jpg 2x 2x"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="/CodeForce-project-2/assets/camera_menu_tablet@1x-1a293472.jpg 1x, /CodeForce-project-2/assets/camera_menu_tablet@2x-9bb44a0f.jpg 2x 2x"
+          media="(min-width: 768px)"
+        />
+        <img
+          src="/CodeForce-project-2/assets/camera_menu_mobile@1x-01b92e02.jpg"
+          alt="Camera"
+          width="329"
+          height="218"
+        />
+      </picture>
+    </div>
+  </div>
+  <script>
+    const burgerBtn = document.querySelector('.burger-btn');
+    const closeBtn = document.querySelector('.close-btn');
+    const backdrop = document.querySelector('.backdrop');
+    const burgerMenu = document.querySelector('.burger-menu');
+
+    burgerBtn.addEventListener('click', function () {
+      backdrop.classList.add('is-open');
+      burgerMenu.classList.add('is-open');
+    });
+    closeBtn.addEventListener('click', function () {
+      backdrop.classList.remove('is-open');
+      burgerMenu.classList.remove('is-open');
+    });
+  </script>
 </header>
 
 
