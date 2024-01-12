@@ -5,7 +5,7 @@
   padding-bottom: 10px;
 }
 
-.container {
+.header .container {
   display: flex;
   gap: 14px;
   align-items: center;
@@ -82,17 +82,17 @@
   color: #FFF;
   font-size: 14px;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #BEA69E;
   font-weight: 700;
-
-
 }
 
-.group {
+.icon-group {
   display: flex;
   align-items: center;
   justify-content: end;
@@ -100,7 +100,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .group {
+  .icon-group {
     display: none;
   }
 }
@@ -116,19 +116,18 @@
 }
 
 @media screen and (min-width: 768px) {
-  .link.camera {
+  .link-camera {
     display: none;
   }
 }
 
 .camera-icon {
   fill: rgba(190, 166, 158, 0.4);
-  transition: fill 1250ms cubic-bezier(0.4, 0, 0.2, 1);
-/* we should choose a transition */
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
-.link:hover .camera-icon,
-.link:focus .camera-icon {
+.link-camera:hover .camera-icon,
+.link-camera:focus .camera-icon {
   fill: #BEA69E;
 }
 
@@ -158,6 +157,8 @@
   line-height: 1.56;
   text-transform: uppercase;
   text-align: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-sign-up:hover,
@@ -190,16 +191,14 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  transform: translateX(100%);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* we should choose a transition */
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+              visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
-  transform: translateX(0);
 }
 
 .burger-menu {
@@ -211,8 +210,7 @@
   right: 0;
   padding: 20px;
   transform: translateX(100%);
-  transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
-/* we should choose a transition */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 999;
 }
 
@@ -246,7 +244,6 @@
     margin-bottom: 172px;
   }
 }
-
 
 .close-icon {
   stroke: #121212;
