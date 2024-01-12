@@ -2,7 +2,7 @@
 
 
 
-.mentors {
+.mentors .container {
     margin: 0 auto;
     max-width: 375px;
     padding-top: 40px;
@@ -10,7 +10,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .mentors {
+    .mentors .container {
         max-width: 704px;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -19,7 +19,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .mentors {
+    .mentors .container {
         max-width: 1080px;
         padding-top: 75px;
         padding-bottom: 75px;
@@ -27,7 +27,7 @@
 }
 
 @media only screen and (min-width: 1440px) {
-    .mentors {
+    .mentors .container {
         max-width: 1240px;
 
 
