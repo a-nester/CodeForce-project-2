@@ -1,3 +1,9 @@
+img {
+width: 100%;
+height: 100%;
+       
+}
+
 .title-about {
 color: #FFF;
 font-family: DM Sans;
@@ -10,6 +16,14 @@ margin-top: 40px;
 padding-bottom: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+.title-about {
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -1.92px;
+    padding-bottom: 50px;
+  }
+}
 
 .decor-about {
 color: #BEA69E;
@@ -20,21 +34,75 @@ line-height: 1.14;
 letter-spacing: -1.12px;
 }
 
+@media only screen and (min-width: 768px) {
+.decor-about{
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -1.92px;
+  }
+}
 .text {
 
 font-family: DM Sans;
-line-height: 1.2;
+line-height: 1.25;
 letter-spacing: -0.28px;
 margin-top: 40px;
 padding-bottom: 20px;
 width: 100%;
 }
+@media only screen and (min-width: 768px) {
+.text {
+color: var(--white, #FFF);
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.32px;
+margin-top: 0;
+    
+  }
+}
+
+
 .about-text {
 color: #FFF;
 font-family: DM Sans;
 font-weight: 400;
-line-height: 1.2;
+line-height: 1.25;
 letter-spacing: -0.28px;
 width: 100%;
 padding-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+.about-text {
+color: #FFF;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .text-p {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin-top: 50px;
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+ .width  {
+    width: 280px;
+  
+  }
+}
+
+@media only screen and (min-width: 768px) {
+.width-p {
+    width: 280px;
+    height: 215px;
+  }
 }
