@@ -54,3 +54,7 @@ body ul {
         
     }
 }
+
+.bg-wrapper {
+    background-image: url(../img/background-footer.png);
+}
