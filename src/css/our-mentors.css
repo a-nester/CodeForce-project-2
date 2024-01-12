@@ -1,0 +1,215 @@
+/* Our Mentors */
+
+.containor {
+    background-color: #0f0e0e;
+    min-width: 320;
+    padding: 0 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .containor {
+        padding: 0 30px;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) {
+    .containor {
+        padding: 0 100px;
+    }
+
+}
+
+.mentors {
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+@media only screen and (min-width: 768px) {
+    .mentors {
+        min-width: 704px;
+
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .mentors {
+        min-width: 1034px;
+        /* padding: 0 23px; */
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .mentors {
+        width: 1240px;
+        /* padding: 0 103px; */
+
+    }
+}
+
+img {
+    display: block;
+    width: 180px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 16px;
+
+}
+
+.title-mentors {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .title-mentors {
+        color: #FFF;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: -1.92px;
+
+    }
+}
+
+
+
+.style-mentors {
+    color: #BEA69E;
+}
+
+.list-mentors {
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 72px;
+    flex-grow: 1;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .list-mentors {
+        max-width: 768px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 93px 100px;
+        margin-top: 50px;
+
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .list-mentors {
+        max-width: 1158px;
+        flex-wrap: nowrap;
+    }
+}
+
+.card-mentor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    flex-basis: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-mentor {
+        flex-basis: 194px;
+        margin: 0;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .card-mentor {
+        flex-basis: 180px;
+
+    }
+
+    .card-mentor .mia-mentor {
+        flex-basis: 194px;
+    }
+
+}
+
+
+.resume-mentor {
+    margin: 0 auto;
+    display: block;
+    max-width: 148px;
+}
+
+@media only screen and (min-width: 768px) {
+    .resume-mentor {
+        max-width: 194px;
+
+    }
+}
+
+.name-mentor {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.2;
+    margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+    .name-mentor {
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 1.14;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .name-mentor {
+        width: 194px;
+
+    }
+}
+
+.experience-mentor {
+
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.24px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .experience-mentor {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+
+    }
+}
