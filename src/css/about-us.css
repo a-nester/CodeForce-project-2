@@ -1,0 +1,40 @@
+.title-about {
+color: #FFF;
+font-family: DM Sans;
+font-size: 28px;
+
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -1.12px;
+margin-top: 40px;
+padding-bottom: 40px;
+}
+
+
+.decor-about {
+color: #BEA69E;
+font-family: DM Sans;
+font-size: 28px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -1.12px;
+}
+
+.text {
+
+font-family: DM Sans;
+line-height: 1.2;
+letter-spacing: -0.28px;
+margin-top: 40px;
+padding-bottom: 20px;
+width: 100%;
+}
+.about-text {
+color: #FFF;
+font-family: DM Sans;
+font-weight: 400;
+line-height: 1.2;
+letter-spacing: -0.28px;
+width: 100%;
+padding-bottom: 40px;
+}
