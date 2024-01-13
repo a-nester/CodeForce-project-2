@@ -1,0 +1,328 @@
+ol {
+  counter-reset: ol-numbers;
+}
+
+ol li {
+  position: relative;
+  padding: 0px 0px 0px 0px;
+}
+
+ol li::before {
+  counter-increment: ol-numbers;
+  counter-increment: ;
+  content: '0' counter(ol-numbers) '';
+  position: absolute;
+  left: 28px;
+  top: 28px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+.courses {
+}
+
+.cours-container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .cours-container {
+    max-width: 768px;
+    padding: 0 32px;
+    margin-bottom: 75px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .cours-container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .cours-container {
+    max-width: 1440px;
+  }
+}
+
+.course-header {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .course-header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .course-header {
+    max-width: 1280px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 75px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .course-header {
+    max-width: 1440px;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+.course-header-cover {
+  margin-bottom: 20px;
+}
+
+.course-header-up {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.12px;
+  /* margin-top: 40px; */
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .course-header-up {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 54px; /* 112.5% */
+    letter-spacing: -1.92px;
+  }
+}
+
+.course-header-down {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -1.12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .course-header-down {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+  }
+}
+
+.course-header-text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .course-header-text {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.32px;
+    max-width: 381px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .course-header-text {
+    max-width: 405px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .course-header-text {
+    max-width: 565px;
+    width: 100%;
+  }
+}
+
+/* список курсов */
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding-left: 0px;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .courses-list {
+    flex-direction: row;
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .courses-list {
+    width: 1280px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .courses-list {
+    width: 1440px;
+  }
+}
+
+/* лишки */
+.courses-part {
+  list-style: none;
+  line-height: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  width: 100%;
+  width: 335px;
+  height: 398px;
+  flex-shrink: 0;
+  padding: 28px 28px 28px 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .courses-part {
+    width: calc((100% - 64px) / 2);
+    height: 452px;
+    margin: 0px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .courses-part {
+    /* width: 347px; */
+    height: 452px;
+    width: calc((100% - 240px) / 3);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .courses-part {
+  }
+}
+
+.cours-header {
+}
+
+/* кнопка */
+.cours-button {
+  display: flex;
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  background-color: #1d1d1d;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 32px;
+  height: 32px;
+
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1d1d1d;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cours-button:hover {
+  background-color: #bea69e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cours-button:focus > .cours-arrow {
+  fill: rgb(29, 153, 29);
+}
+
+.cours-button:focus {
+  background-color: #bea69e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cours-arrow {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  stroke: rgba(255, 255, 255, 0.4);
+  fill: none;
+}
+
+.course-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 342px;
+}
+
+@media only screen and (min-width: 768px) {
+  .course-inside {
+    height: 388px;
+  }
+}
+
+.course-title-section {
+}
+
+.course-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 60px;
+}
+.course-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  /* margin-top: 164px; */
+}
+.course-text-fill {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
