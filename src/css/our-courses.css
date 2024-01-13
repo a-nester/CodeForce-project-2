@@ -1,28 +1,116 @@
+ol {
+  counter-reset: ol-numbers;
+  list-style-type: revert;
+}
+
+ol li {
+  position: relative;
+  padding: 0px 0px 0px 0px;
+}
+
+ol li::before {
+  counter-increment: ol-numbers;
+  counter-increment: ;
+  content: '0' counter(ol-numbers) '';
+  position: absolute;
+  left: 28px;
+  top: 28px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  list-style-type: revert;
+}
+
 .courses {
 }
 
-.conainer {
-  padding: 0 20px;
+.cours-container {
   max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
-.cours-container {
+@media only screen and (min-width: 768px) {
+  .cours-container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .cours-container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .cours-container {
+    max-width: 1440px;
+    padding: 0 100px;
+  }
 }
 
 .course-header {
-  color: #fff;
+}
 
+@media only screen and (min-width: 768px) {
+  .course-header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .course-header {
+    max-width: 1280px;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+.course-header-cover {
+}
+
+@media only screen and (min-width: 768px) {
+  .course-header-cover {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.course-header-up {
+  color: #fff;
   font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 114.286% */
+  line-height: 32px;
   letter-spacing: -1.12px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
-.course-header-next {
+@media only screen and (min-width: 768px) {
+  .course-header-up {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 54px; /* 112.5% */
+    letter-spacing: -1.92px;
+  }
+}
+
+.course-header-down {
   color: #bea69e;
   font-family: DM Sans;
   font-size: 28px;
@@ -32,27 +120,81 @@
   letter-spacing: -1.12px;
 }
 
+@media only screen and (min-width: 768px) {
+  .course-header-down {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+  }
+}
+
 .course-header-text {
   color: #fff;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: -0.28px;
   margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .course-header-text {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.32px;
+    max-width: 381px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .course-header-text {
+    max-width: 405px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .course-header-text {
+    max-width: 565px;
+    width: 100%;
+  }
 }
 
 /* список курсов */
 .courses-list {
   max-width: 355px;
   width: auto;
+  padding-left: 0px;
 }
 
-.courses-list ol li {
-  padding: 0 0 0 0;
+@media only screen and (min-width: 768px) {
+  .courses-list {
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+}
 
-  margin: 0 0 0 0;
+@media only screen and (min-width: 1280px) {
+  .courses-list {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
 }
 
 .courses-part {
@@ -67,47 +209,81 @@
   height: 398px;
   flex-shrink: 0;
   padding: 28px 28px 28px 28px;
-  display: flex-inline;
+  max-width: auto;
 }
 
-li:before {
-  counter-increment: courses-list;
-  content: counter(courses-list);
-  color: rgb(151, 41, 41);
-  background: #060707;
-  display: inline-block;
-  text-align: center;
-  line-height: normal;
-  height: auto;
-  width: auto;
-  margin: 0 10px 0 0;
-  padding: 0 8px;
+@media only screen and (min-width: 768px) {
+  .courses-list {
+    max-width: 768px;
+    width: 342px;
 
-  color: rgba(255, 255, 255, 0.4);
+    height: 452px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .courses-list {
+    max-width: 1280px;
+    /* width: 347px; */
+    height: 452px;
+  }
+}
 
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+@media only screen and (min-width: 1440px) {
+  .courses-list {
+    max-width: 1440px;
+    /* width: 400px; */
+    height: 452px;
+    max-height: 100%;
+  }
 }
 
 .cours-header {
 }
+
 .cours-button {
+  display: flex;
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  background-color: #1d1d1d;
+
+  width: 32px;
+  height: 32px;
+
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1d1d1d;
+  border-radius: 50%;
 }
 .cours-arrow {
+  width: 20px;
+  height: 20px;
 }
+.cours-button:hover {
+  background-color: #bea69e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cours-button:active {
+  background-color: #bea69e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.course-inside {
+}
+
 .course-title-section {
 }
+
 .course-title {
   color: #fff;
   font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 114.286% */
+  line-height: 32px;
+  padding-top: 60px;
 }
 .course-text {
   color: rgba(255, 255, 255, 0.5);
@@ -115,8 +291,16 @@ li:before {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
-  letter-spacing: -0.28px;
+  line-height: 18px;
+  /letter-spacing: -0.28px;
+  margin-top: 164px;
 }
 .course-text-fill {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
 }
