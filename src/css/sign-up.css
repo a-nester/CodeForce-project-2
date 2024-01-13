@@ -1,6 +1,7 @@
 .container-sing-up {
     width: 100%;
     display: flex;
+   
 }
 /* @media only screen and (min-width: 768px) {
 .container-sing-up {
@@ -164,9 +165,9 @@ display: flex;
 
 }
 
-/* .message:focus {
+.message:focus {
     border-color: #FFFFFF;
-} */
+}
 
 .message::placeholder {
     color: #8E8F99;
