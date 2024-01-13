@@ -240,11 +240,10 @@ display: flex;
 
 }
 
-/* .container-sing-up-foto {
+.container-sing-up-foto {
     flex-direction: row;
     margin-left: 200px;
     margin-right: 100px;
-    background-color: aqua;
     width: 50%;
     display: flex;
 
@@ -255,16 +254,18 @@ display: flex;
     width: 190px;
     height: 288px;
     flex-shrink: 0;
-    background-color: tomato;
     top: 0;
+    border-radius: 1000px;
+    background: #BEA69E;
 }
 
 .camera {
     width: 350px;
     height: 540px;
     flex-shrink: 0;
-    background-color: palevioletred;
-} */
+    border-radius: 1000px;
+    background: #1D1D1D;
+}
 
 
 
