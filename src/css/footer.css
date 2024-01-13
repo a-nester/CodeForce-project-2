@@ -1,10 +1,12 @@
-/* .footer {
-    background-image: url(../img/background-footer.png);
-} */
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
 
 .footer .container {
     max-width: 375px;
     display: block;
+    
+    
     /* background-color: #0f0e0e; */
     
     padding-top: 40px;
@@ -59,6 +61,7 @@
 
 .contacts-list-lnk {
     color: #fff;
+    font-style: normal;
     text-transform: uppercase;
 }
 

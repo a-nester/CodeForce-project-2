@@ -49,9 +49,8 @@
 @media screen and (min-width: 1280px) {
     .hero-title {
         width: 541px;
+        letter-spacing: -2.4px;
         font-size: 64px;
-        line-height: 68px;
-        letter-spacing: -2.56px;
     }
 }
 
@@ -59,7 +58,6 @@
     color: #BEA69E;
     font-style: italic;
     padding-bottom: 40px;
-
 }
 
 .hero-text {
@@ -76,7 +74,7 @@
         width: 418px;
         height: auto;
         color: #FFF;
-        font-size: 14px; 
+        font-size: 14px;     
     }
 }
 
@@ -87,7 +85,6 @@
 }
 
 .rewiews-hero-block {
-    
     padding-bottom: 31px;
     display: flex;
 }
@@ -98,8 +95,7 @@
         padding-bottom: 40px;
         justify-content: center;
         align-items: flex-start;
-        gap: 40px;
-        
+        gap: 40px;  
     }
 }
 
@@ -136,11 +132,8 @@
     flex-direction: row; 
 }
 
-.students-text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: -0.56px;
+.students-text:hover  {
+    color: #BEA69E;
 }
 
 @media screen and (min-width: 768px) {
@@ -171,6 +164,13 @@
     line-height: 18px;
     letter-spacing: -0.56px;
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .students-text {
+        width: 82px;
+        font-size: 16px;
+    }
 }
 
 .students-icon {
@@ -236,6 +236,12 @@
     padding-bottom: 8px;
 }
 
+@media screen and (min-width: 768px) {
+    .rewiew-text {
+        font-size: 16px;  
+    }
+}
+
 .rewiew-numbers {
     color: #FFF;
     font-size: 16px;
@@ -243,6 +249,12 @@
     line-height: 18px;
     letter-spacing: -0.64px;
 }
+
+@media screen and (min-width: 768px) {
+    .rewiew-numbers {
+        line-height: 20px;
+    }
+  }
 
 .hero .picture {
     display: block;
@@ -265,11 +277,11 @@
 
   }
 
-  @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .hero-img {
         position: absolute;
         top: 12%;
         right: 4%;
         margin: 0 0 0 auto;
     }
-  }
+}
