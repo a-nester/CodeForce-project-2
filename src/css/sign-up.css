@@ -1,6 +1,6 @@
 
 /* @media only screen and (min-width: 768px) {
-.container-sing-up {
+.section-sing-up {
 max-width: 768px;
 display: flex;
 
@@ -9,9 +9,12 @@ display: flex;
 }
 
 @media only screen and (min-width: 1280px) {
-.container-sing-up {
+.section-sing-up {
     max-width: 1280px;
 } */
+.signup{
+    display: flex;
+}
 
 .section-sing-up {
     width: 480px;
@@ -242,8 +245,8 @@ display: flex;
 
 .container-sing-up-foto {
     flex-direction: row;
-    margin-left: 200px;
-    margin-right: 100px;
+    #margin-left: 200px;
+    padding-left: 100px;
     width: 50%;
     display: flex;
 
@@ -262,11 +265,12 @@ display: flex;
 .camera {
     width: 350px;
     height: 540px;
+    margin-left: 20px;
     flex-shrink: 0;
     border-radius: 1000px;
     background: #1D1D1D;
+    
 }
-
 
 
 
