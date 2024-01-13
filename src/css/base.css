@@ -1,4 +1,7 @@
 body {
+    background-color: #121212;
+    font-family: DM Sans;
+    color: #fff;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -28,8 +31,7 @@ body ul {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+    min-width: 320px;
     max-width: 375px;
     padding: 0 20px;
     margin-left: auto;
@@ -48,4 +50,14 @@ body ul {
         max-width: 1280px;
         padding: 0 100px;
     }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+.bg-wrapper {
+    background-image: url(../img/background-footer.png);
 }
