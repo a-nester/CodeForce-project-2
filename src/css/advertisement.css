@@ -8,11 +8,21 @@
 }
 
 .photo-skills-inner {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 .text-line {
   color: #bea69e;
   font-size: 28px;
@@ -22,14 +32,28 @@
   text-transform: uppercase;
 
   flex-shrink: 0;
-  margin: 0;
+
   padding: 24px 0;
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
-  animation-duration: 11s;
+  animation-duration: 7s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+}
+@media only screen and (min-width: 768px) {
+  .text-line {
+    font-size: 40px;
+    line-height: 1.25; /* 125% */
+    letter-spacing: -0.02em;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .text-line {
+    font-size: 59px;
+    line-height: 1.1; /* 108.475% */
+    letter-spacing: -0.02em;
+  }
 }
 .text-decor {
   color: #fff;
@@ -39,12 +63,17 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
-@keyframes marqueeLine {
-  from {
-    transform: translateX(0);
+@media only screen and (min-width: 768px) {
+  .text-decor {
+    font-size: 40px;
+    line-height: 1.25; /* 125% */
+    letter-spacing: -0.02em;
   }
-
-  to {
-    transform: translateX(-100%);
+}
+@media only screen and (min-width: 1280px) {
+  .text-decor {
+    font-size: 59px;
+    line-height: 1.1; /* 108.475% */
+    letter-spacing: -0.02em;
   }
 }
