@@ -53,7 +53,9 @@ display: flex;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: -0.02em;
-    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
 }
 
 
@@ -158,8 +160,8 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0px;
     outline: transparent;
-    
     background-color: transparent;
+    text-align: ;
 
 
 }
@@ -244,10 +246,13 @@ display: flex;
 }
 
 .container-sing-up-foto {
-    #margin-left: 200px;
-    padding-left: 100px;
-    width: 50%;
+    
+    padding-left: 200px;
     display: flex;
+    width: 560px;
+    
+
+    
 
 
 }
@@ -260,6 +265,9 @@ display: flex;
     border-radius: 1000px;
     background: #BEA69E;
     margin-top: 252px;
+    
+ 
+    
 }
 
 .camera {
@@ -277,6 +285,7 @@ display: flex;
 .img-sign-one{
 width: 100%;
 padding-top: 63px;
+
 
 }
 
