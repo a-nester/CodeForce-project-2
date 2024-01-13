@@ -1,17 +1,4 @@
 
-/* @media only screen and (min-width: 768px) {
-.section-sing-up {
-max-width: 768px;
-display: flex;
-
-}
-   
-}
-
-@media only screen and (min-width: 1280px) {
-.section-sing-up {
-    max-width: 1280px;
-} */
 .signup{
     display: flex;
     margin-top: 75px;
@@ -20,11 +7,31 @@ display: flex;
 .section-sing-up {
     width: 480px;
     height: 578px;
-   
-
-
 
 }
+
+@media only screen and (min-width: 768px) {
+.sign_up .container {
+max-width: 768px;
+
+}
+   
+}
+
+@media only screen and (min-width: 1280px) {
+.sign_up .container{
+    max-width: 1280px;
+}
+}
+
+@media only screen and (min-width: 1440px) {
+.sign_up .container {
+        max-width: 1440px;
+    }
+    
+}
+
+
 
 .sign-logo {
     color: #FFF;
@@ -252,10 +259,18 @@ display: flex;
     width: 560px;
     
 
-    
+}
 
+@media only screen and (min-width: 320px) {
+    .container-sing-up-foto{
+        
+        display: none;
+
+    }
 
 }
+
+
 
 .lens {
     width: 190px;
@@ -307,11 +322,4 @@ margin-left: 48px;
 
 
 
-/* @media only screen and (min-width: 768px){
-
-}
-
-@media only screen and (min-width: 1280px){
-
-} */
 
