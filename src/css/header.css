@@ -88,7 +88,7 @@
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #BEA69E;
+  fill: #BEA69E;
   font-weight: 700;
 }
 
