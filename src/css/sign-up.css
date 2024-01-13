@@ -47,7 +47,7 @@ display: flex;
     letter-spacing: -1.92px;
 }
 
-.sing-up-text {
+.sign-up-text {
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -55,8 +55,6 @@ display: flex;
     letter-spacing: -0.02em;
     text-align: left;
 }
-
-.sing-form {}
 
 
 .form_list {
@@ -215,7 +213,7 @@ display: flex;
 }
 
 
-.button-sing-up {
+.button-sign-up {
     display: block;
     padding-top: 16px 216px;
     gap: 40px;
@@ -238,8 +236,8 @@ display: flex;
 
 }
 
-.button-sing-up:hover,
-.button-sing-up:focus {
+.button-sign-up:hover,
+.button-sign-up:focus {
     background-color: #1D1D1D;
     color: #BEA69E;
 
