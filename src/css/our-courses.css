@@ -54,6 +54,7 @@ ol li::before {
 }
 
 .course-header {
+  margin-top: 20px;
   margin-bottom: 40px;
 }
 
@@ -63,6 +64,7 @@ ol li::before {
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
 }
@@ -72,6 +74,7 @@ ol li::before {
     max-width: 1280px;
     width: 100%;
     justify-content: space-between;
+    margin-top: 75px;
   }
 }
 
@@ -256,18 +259,26 @@ ol li::before {
   border-radius: 50%;
   cursor: pointer;
 }
-.cours-arrow {
-  width: 20px;
-  height: 20px;
-}
+
 .cours-button:hover {
   background-color: #bea69e;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cours-button:active {
+.cours-button:focus > .cours-arrow {
+  fill: rgb(29, 153, 29);
+}
+
+.cours-button:focus {
   background-color: #bea69e;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cours-arrow {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  stroke: rgba(255, 255, 255, 0.4);
 }
 
 .course-inside {
