@@ -33,7 +33,7 @@
 
   flex-shrink: 0;
 
-  padding: 24px 0;
+  padding: 20px 0;
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
@@ -46,6 +46,7 @@
     font-size: 40px;
     line-height: 1.25; /* 125% */
     letter-spacing: -0.02em;
+    padding: 24px 0;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -53,6 +54,7 @@
     font-size: 59px;
     line-height: 1.1; /* 108.475% */
     letter-spacing: -0.02em;
+    padding: 24px 0;
   }
 }
 .text-decor {
