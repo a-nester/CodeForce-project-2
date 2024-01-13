@@ -1,68 +1,129 @@
-<main>
-  <section class="hero section">
+  <section class="hero">
     <div class="container">
-      <h1 class="hero-title">
-        Discover the magic of
-        <span class="title-span">photography&nbsp;</span> in our school
-      </h1>
-      <p class="hero-text">
-        Our photography school offers an unforgettable journey, where you
-        can learn the basics of composition, master technical skills,
-        translate your unique ideas.
-      </p>
-      <div class="rewiews-hero-block">
-        <div class="users-block">
-          <div class="users-img">
-            <span class="students-icon">
-              <img
-                src="./img/hero-img/girl1_mobile@1x.png"
-                alt="girl 1"
-                width="44"
-                height="44"
-              />
-            </span>
-            <span class="students-icon" >
-              <img
-                src="../img/hero-img/boy_mobile@1x.png"
-                alt="boy"
-                width="44"
-                height="44"
-              />
-            </span>
-            <span class="students-icon">
-              <img
-                src="../img/hero-img/girl1_mobile@1x.png"
-                alt="girl"
-                width="44"
-                height="44"
-              />
-            </span>
-          </div>
-          <!-- ID#↓ NEED TO CHANGE ANCHOR -->
-          <div class="our-students">
-            <a class="students-text" href="#rewiews">Our happy students </a>
-            <svg class="arrow-icon" width="18px" height="8.66px">
-              <use href="../img/icons.svg#icon-arrow-right"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="rewiews-text-block">
-          <svg class="icon-star" width="22" height="22">
-            <use href="../img/icons.svg#icon-star"></use>
-          </svg>
-          <div class="rew-block-tex">
-            <p class="rewiew-text">Reviews</p>
-            <p class="rewiew-numbers">+1500</p>
-          </div>
-        </div>
-      </div>
+      <div class="hero-wrapper">
+        <h1 class="hero-title">
+          Discover the magic of
+          <span class="title-span">photography&nbsp;</span> in our school
+        </h1>
 
-      <img
-        class="hero-man-img"
-        
-        src="../img/hero-img/mobile_hero@1x.png"
-        alt="Rectangle"
-      />
+        <p class="hero-text">
+          Our photography school offers an unforgettable journey, where you can
+          learn the basics of composition, master technical skills, translate your
+          unique ideas.
+        </p>
+          <div class="rewiews-hero-block">
+            <div class="users-block">
+              <div class="users-img">
+                <span class="students-icon">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./img/hero-img/girl1@1x.png 1x,
+                        ./img/hero-img/girl1@2x.png 2x
+                      "
+                    />
+                  <img
+                    srcset="
+                        ./img/hero-img/girl1_mobile@1x.png 1x,
+                        ./img/hero-img/girl1_mobile@2x.png 2x
+                      "
+                    src="./img/hero-img/girl1_mobile@1x.png"
+                    alt="girl 1"
+                    width="44"
+                    height="44"
+                  />
+                </picture>
+                </span>
+
+                <span class="students-icon">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./img/hero-img/boyboy@1x.png 1x,
+                        ./img/hero-img/boyboy@2x.png 2x
+                      "
+                      src="./img/hero-img/boyboy@1x.png"
+                    />
+                  <img
+                    srcset="
+                        ./img/hero-img/boy_mobile@1x.png 1x,
+                        ./img/hero-img/boy_mobile@2x.png 2x
+                      "
+                    src="./img/hero-img/boy_mobile@1x.png"
+                    alt="boy"
+                    width="44"
+                    height="44"
+                  />
+                </span>
+                
+                <span class="students-icon">
+                  <picture >
+                    <source 
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./img/hero-img/girlgirl2@1x.png 1x,
+                      ./img/hero-img/girlgirl2@2x.png 2x
+                    "
+                    src="./img/hero-img/girlgirl2@1x.png"
+                  />
+                  <img
+                    srcset="
+                      ./img/hero-img/girl2_mobile@1x.png 1x,
+                      ./img/hero-img/girl2_mobile@2x.png 2x
+                    "
+                    src="./img/hero-img/girl2_mobile@1x.png"
+                    alt="girl"
+                    width="44"
+                    height="44"
+                  />
+                </picture>
+                </span>
+              </div>
+              <!-- ID#↓ NEED TO CHANGE ANCHOR -->
+              <div class="our-students">
+                <a class="students-text" href="#rewiews">Our happy students </a>
+                <svg class="arrow-icon" width="18px" height="8.66px">
+                  <use href="../img/icons.svg#icon-arrow-right"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="rewiews-text-block">
+              <svg class="icon-star" width="22" height="22">
+                <use href="../img/icons.svg#icon-star"></use>
+              </svg>
+              <div class="rew-block-tex">
+                <p class="rewiew-text">Reviews</p>
+                <p class="rewiew-numbers">+1500</p>
+              </div>
+            </div>
+          </div>
+      
+      
+        <picture class="picture">
+          <source
+            srcset="
+              ./img/hero-img/desk_hero@1x.png 1x,
+              ./img/hero-img/desk_hero@2x.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+
+          <source
+            srcset="
+              ./img/hero-img/tablet_hero@1x.png 1x,
+              ./img/hero-img/tablet_hero@2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          
+          <img class="hero-img" 
+          srcset="../img/hero-img/mobile_hero@1x.png 1x,
+          ../img/hero-img/mobile_hero@2x.png 2x" 
+          alt="mobile_hero" />
+        </picture>
+      
+      </div>
     </div>
   </section>
-</main>
