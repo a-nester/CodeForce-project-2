@@ -58,6 +58,6 @@ body ul {
     }
 }
 
-.bg-wrapper {
+.bg-wrapper, .footer {
     background-image: url(../img/background-footer.png);
 }
