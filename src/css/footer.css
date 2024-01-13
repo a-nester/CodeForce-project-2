@@ -1,8 +1,8 @@
-.footer {
+/* .footer {
     background-image: url(../img/background-footer.png);
-}
+} */
 
-.footer>.container {
+.footer .container {
     max-width: 375px;
     display: block;
     /* background-color: #0f0e0e; */
