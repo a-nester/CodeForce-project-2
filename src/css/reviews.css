@@ -1,0 +1,72 @@
+/*H2*/
+.reviews{
+    
+}
+
+.section-header{
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.13;
+    letter-spacing: -0.04em;
+    text-align: left;
+
+    margin-bottom: 40px;
+}
+
+.box-reviews{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 335px;
+
+    border: 1px solid #FFFFFF33;
+    border-radius: 12px;
+}
+
+.box-reviews-cards{
+    width: 100%;
+}
+
+.reviews-card{
+    width: calc((100% - 24px) / 2);
+    padding: 20px;
+}
+
+.about-reviewer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.reviewer-photo{
+    margin-right: 10px;
+}
+
+.reviewer-personality{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.reviewer-information{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.reviewer-rating{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.box-reviewer-rating{
+    width: 96px;
+    height: 16px;
+}
