@@ -128,8 +128,6 @@
     }
 }
 
-
-
 .our-students {
     display: flex;
     justify-content: flex-start;
@@ -183,27 +181,24 @@
     flex-shrink: 0;
 }
   
-  .students-icon:nth-child(1) {
+.students-icon:nth-child(1) {
     z-index: 3;
-  }
+}
   
-  .students-icon:nth-child(2) {
+.students-icon:nth-child(2) {
     left: -12px;  
     z-index: 2;
-  }
+}
   
-  .students-icon:nth-child(3) {
+.students-icon:nth-child(3) {
     left: -24px;
     z-index: 1;
-  }
-
+}
 
 .arrow-icon {
     display: flex;
     fill: #FFF;     
 }
-
-
 
 .icon-star {
     padding: 12px;
@@ -218,7 +213,6 @@
     background-color: #BEA69E;      
 }
  
-
 .rewiews-text-block {
     gap: 12px;
     display: flex;
@@ -250,14 +244,10 @@
     letter-spacing: -0.64px;
 }
 
-
-/* ADDED CLASSES */
-
 .hero .picture {
     display: block;
     text-align: center;
   }
-
 
 @media screen and (min-width: 768px) {
     .hero .picture {
