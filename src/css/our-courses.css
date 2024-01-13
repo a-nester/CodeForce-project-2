@@ -1,6 +1,5 @@
 ol {
   counter-reset: ol-numbers;
-  list-style-type: revert;
 }
 
 ol li {
@@ -22,7 +21,6 @@ ol li::before {
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.28px;
-  list-style-type: revert;
 }
 
 .courses {
@@ -38,6 +36,7 @@ ol li::before {
   .cours-container {
     max-width: 768px;
     padding: 0 32px;
+    margin-bottom: 75px;
   }
 }
 
@@ -51,19 +50,20 @@ ol li::before {
 @media only screen and (min-width: 1440px) {
   .cours-container {
     max-width: 1440px;
-    padding: 0 100px;
   }
 }
 
 .course-header {
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .course-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 50px;
   }
 }
 
@@ -75,14 +75,16 @@ ol li::before {
   }
 }
 
-.course-header-cover {
+@media only screen and (min-width: 1440px) {
+  .course-header {
+    max-width: 1440px;
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-  .course-header-cover {
-    display: flex;
-    flex-direction: row;
-  }
+.course-header-cover {
+  margin-bottom: 20px;
 }
 
 .course-header-up {
@@ -93,7 +95,7 @@ ol li::before {
   font-weight: 500;
   line-height: 32px;
   letter-spacing: -1.12px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   margin-bottom: 20px;
 }
 
@@ -172,35 +174,38 @@ ol li::before {
 
 /* список курсов */
 .courses-list {
-  max-width: 355px;
+  display: flex;
+  flex-direction: column;
   width: auto;
   padding-left: 0px;
+  gap: 20px;
 }
 
 @media only screen and (min-width: 768px) {
   .courses-list {
-    max-width: 768px;
+    flex-direction: row;
+    width: 768px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .courses-list {
-    max-width: 1280px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
+    width: 1280px;
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .courses-list {
+    width: 1440px;
+  }
+}
+
+/* лишки */
 .courses-part {
   list-style: none;
   line-height: 20px;
-  margin: 0 0 8px 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
@@ -209,45 +214,39 @@ ol li::before {
   height: 398px;
   flex-shrink: 0;
   padding: 28px 28px 28px 28px;
-  max-width: auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .courses-list {
-    max-width: 768px;
-    width: 342px;
-
+  .courses-part {
+    width: calc((100% - 64px) / 2);
     height: 452px;
-    width: 100%;
+    margin: 0px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .courses-list {
-    max-width: 1280px;
+  .courses-part {
     /* width: 347px; */
     height: 452px;
+    width: calc((100% - 240px) / 3);
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .courses-list {
-    max-width: 1440px;
-    /* width: 400px; */
-    height: 452px;
-    max-height: 100%;
+  .courses-part {
   }
 }
 
 .cours-header {
 }
 
+/* кнопка */
 .cours-button {
   display: flex;
   position: absolute;
   top: 28px;
   right: 28px;
   background-color: #1d1d1d;
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 32px;
   height: 32px;
 
@@ -255,6 +254,7 @@ ol li::before {
   justify-content: center;
   border: 1px solid #1d1d1d;
   border-radius: 50%;
+  cursor: pointer;
 }
 .cours-arrow {
   width: 20px;
