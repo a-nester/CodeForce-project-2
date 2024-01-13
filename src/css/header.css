@@ -179,7 +179,7 @@
 }
 }
 
-/* MOBILE MENU */
+/* BURGER MENU */
 
 .backdrop {
   background-color: rgba(18, 18, 18, 0.40);
@@ -202,7 +202,7 @@
   pointer-events: all;
 }
 
-.mobile-menu {
+.burger-menu {
   width: 218px;
   height: 100vh;
   background-color: #BEA69E;
@@ -215,13 +215,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .mobile-menu {
+  .burger-menu {
     width: 476px;
     padding: 20px 32px 20px 64px;
   }
 }
 
-.mobile-menu.is-open {
+.burger-menu.is-open {
   transform: translateX(0);
 }
 
@@ -280,7 +280,7 @@
   font-weight: 700;
 }
 
-.mobile-menu-img {
+.burger-menu-img {
  position: absolute;
  bottom: 0;
  right: 0;
