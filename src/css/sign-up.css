@@ -1,8 +1,4 @@
-.container-sing-up {
-    width: 100%;
-    display: flex;
-   
-}
+
 /* @media only screen and (min-width: 768px) {
 .container-sing-up {
 max-width: 768px;
@@ -243,6 +239,40 @@ display: flex;
     color: #BEA69E;
 
 }
+
+/* .container-sing-up-foto {
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 100px;
+    background-color: aqua;
+    width: 50%;
+    display: flex;
+
+
+}
+
+.lens {
+    width: 190px;
+    height: 288px;
+    flex-shrink: 0;
+    background-color: tomato;
+    top: 0;
+}
+
+.camera {
+    width: 350px;
+    height: 540px;
+    flex-shrink: 0;
+    background-color: palevioletred;
+} */
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 768px){
