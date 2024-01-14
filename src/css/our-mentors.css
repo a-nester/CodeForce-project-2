@@ -1,0 +1,201 @@
+/* Our Mentors */
+
+
+
+.mentors .container {
+    /* margin: 0 auto; */
+    max-width: 375px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .mentors .container {
+        max-width: 768px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .mentors .container {
+        max-width: 1280px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .mentors .container {
+        max-width: 1440px;
+
+
+    }
+}
+
+
+
+.list-mentors {
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 72px;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .list-mentors {
+        max-width: 488px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 93px 100px;
+        margin-top: 50px;
+
+
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .list-mentors {
+        max-width: 1034px;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 100px;
+    }
+
+
+}
+
+.card-mentor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    flex-basis: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .card-mentor {
+        flex-basis: 194px;
+        margin: 0;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .card-mentor {
+        flex-basis: 180px;
+
+    }
+
+
+}
+
+/* text */
+.resume-mentor {
+    margin: 0 auto;
+    display: block;
+    max-width: 148px;
+}
+
+@media only screen and (min-width: 768px) {
+    .resume-mentor {
+        max-width: 194px;
+
+    }
+}
+
+.name-mentor {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.2;
+    margin-bottom: 4px;
+    margin-top: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .name-mentor {
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 1.14;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .name-mentor {
+        max-width: 194px;
+
+    }
+
+    .name-mentor.mia {
+        width: 194px;
+    }
+}
+
+.experience-mentor {
+
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.24px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .experience-mentor {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+
+    }
+}
+
+.title-mentors {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .title-mentors {
+        color: #FFF;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: -1.92px;
+    }
+}
+
+
+
+.style-mentors {
+    color: #BEA69E;
+}

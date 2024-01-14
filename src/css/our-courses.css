@@ -279,10 +279,33 @@ ol li::before {
 
   height: 20px;
   stroke: rgba(255, 255, 255, 0.4);
+<<<<<<< HEAD
   fill: transparent;
 }
 
 .course-inside {
+=======
+  fill: transparent;
+}
+
+.course-inside {
+=======
+  fill: none;
+}
+
+.course-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 342px;
+}
+
+@media only screen and (min-width: 768px) {
+  .course-inside {
+    height: 388px;
+  }
+>>>>>>> a27385bb76a4b09226cdb4b7a545d2264e8b4bfc
+>>>>>>> main
 }
 
 .course-title-section {
@@ -304,8 +327,17 @@ ol li::before {
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-  letter-spacing: -0.28px;
+<<<<<<< HEAD
+  /letter-spacing: -0.28px;
   margin-top: 164px;
+=======
+  letter-spacing: -0.28px;
+<<<<<<< HEAD
+  margin-top: 164px;
+=======
+  /* margin-top: 164px; */
+>>>>>>> a27385bb76a4b09226cdb4b7a545d2264e8b4bfc
+>>>>>>> main
 }
 .course-text-fill {
   color: rgba(255, 255, 255, 0.5);

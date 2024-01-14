@@ -1,30 +1,106 @@
+/* HEADER */
+
 .header {
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.header .container {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-bottom: 20px;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding: 16px 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+.wrapper {
+    padding: 21px 50px;
+  }
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo {
+  fill: #fff;
+}
+
+.navigation {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .navigation {
+    display: block;
+  }
 }
 
 .nav-list {
   display: flex;
+  gap: 28px;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+}
+
+@media screen and (min-width: 1440px) {
+  .nav-list {
+    gap: 40px;
+  }
 }
 
 .nav-link {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
 =======
+=======
+>>>>>>> main
   color: #FFF;
   font-size: 14px;
   text-transform: uppercase;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
               text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> main
 }
 
 .nav-link:hover,
 .nav-link:focus {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   color: #747bff;
 }
@@ -32,6 +108,11 @@
   color: #BEA69E;
   text-shadow: .5px .5px .5px #BEA69E;
 }
+=======
+  color: #BEA69E;
+  text-shadow: .5px .5px .5px #BEA69E;
+}
+>>>>>>> main
 
 .icon-group {
   display: flex;
@@ -233,4 +314,7 @@ padding: 20px;
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> main
