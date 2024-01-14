@@ -9,7 +9,6 @@ ol li {
 
 ol li::before {
   counter-increment: ol-numbers;
-  counter-increment: ;
   content: '0' counter(ol-numbers) '';
   position: absolute;
   left: 28px;
@@ -53,13 +52,13 @@ ol li::before {
   }
 }
 
-.course-header {
+.course-titel {
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-  .course-header {
+  .course-titel {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -70,7 +69,7 @@ ol li::before {
 }
 
 @media only screen and (min-width: 1280px) {
-  .course-header {
+  .course-titel {
     max-width: 1280px;
     width: 100%;
     justify-content: space-between;
@@ -79,18 +78,18 @@ ol li::before {
 }
 
 @media only screen and (min-width: 1440px) {
-  .course-header {
+  .course-titel {
     max-width: 1440px;
     width: 100%;
     justify-content: space-between;
   }
 }
 
-.course-header-cover {
+.course-titel-cover {
   margin-bottom: 20px;
 }
 
-.course-header-up {
+.course-titel-up {
   color: #fff;
   font-family: DM Sans;
   font-size: 28px;
@@ -103,7 +102,7 @@ ol li::before {
 }
 
 @media only screen and (min-width: 768px) {
-  .course-header-up {
+  .course-titel-up {
     color: #fff;
     font-family: DM Sans;
     font-size: 48px;
@@ -115,7 +114,7 @@ ol li::before {
   }
 }
 
-.course-header-down {
+.course-titel-down {
   color: #bea69e;
   font-family: DM Sans;
   font-size: 28px;
@@ -126,7 +125,7 @@ ol li::before {
 }
 
 @media only screen and (min-width: 768px) {
-  .course-header-down {
+  .course-titel-down {
     color: #bea69e;
     font-family: DM Sans;
     font-size: 48px;
@@ -137,7 +136,7 @@ ol li::before {
   }
 }
 
-.course-header-text {
+.course-titel-text {
   color: #fff;
   font-family: DM Sans;
   font-size: 14px;
@@ -149,7 +148,7 @@ ol li::before {
 }
 
 @media only screen and (min-width: 768px) {
-  .course-header-text {
+  .course-titel-text {
     color: #fff;
     font-family: DM Sans;
     font-size: 16px;
@@ -162,14 +161,14 @@ ol li::before {
 }
 
 @media only screen and (min-width: 1280px) {
-  .course-header-text {
+  .course-titel-text {
     max-width: 405px;
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .course-header-text {
+  .course-titel-text {
     max-width: 565px;
     width: 100%;
   }
@@ -239,7 +238,7 @@ ol li::before {
   }
 }
 
-.cours-header {
+.cours-titel {
 }
 
 /* кнопка */
@@ -277,29 +276,13 @@ ol li::before {
 .cours-arrow {
   display: flex;
   width: 20px;
+
   height: 20px;
   stroke: rgba(255, 255, 255, 0.4);
-<<<<<<< HEAD
   fill: transparent;
 }
 
 .course-inside {
-=======
-  fill: none;
-}
-
-.course-inside {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 342px;
-}
-
-@media only screen and (min-width: 768px) {
-  .course-inside {
-    height: 388px;
-  }
->>>>>>> a27385bb76a4b09226cdb4b7a545d2264e8b4bfc
 }
 
 .course-title-section {
@@ -321,13 +304,8 @@ ol li::before {
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-<<<<<<< HEAD
-  /letter-spacing: -0.28px;
-  margin-top: 164px;
-=======
   letter-spacing: -0.28px;
-  /* margin-top: 164px; */
->>>>>>> a27385bb76a4b09226cdb4b7a545d2264e8b4bfc
+  margin-top: 164px;
 }
 .course-text-fill {
   color: rgba(255, 255, 255, 0.5);
