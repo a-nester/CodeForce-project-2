@@ -14,6 +14,7 @@
         max-width: 768px;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         column-gap: 58px;
         row-gap: 0;
     }
@@ -59,6 +60,17 @@
     text-transform: uppercase;
 }
 
+.contacts-list-adr {
+    color: #fff;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.contacts-list-lnk:hover {
+    color: #BEA69E;
+    font-weight: 700;
+}
+
 .link-wrapper {
     display: flex;
     flex-direction: row;
@@ -82,6 +94,7 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
+    width: 77px;
 }
 
 .footer-social-lnk {
@@ -100,6 +113,7 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
+    width: 97px;
 }
 
 .sub-wrapper {
@@ -159,14 +173,19 @@
     height: 60px;
     border-radius: 12px;
     background-color: #1D1D1D;
+    font-size: 20px;
     color: #fff;
     border: none;
     padding: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .subscibe-btn:hover {
     background-color: #fff;
     color: #BEA69E;
+    font-weight: 700;
 }
 
 .agreement {
