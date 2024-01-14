@@ -1,27 +1,37 @@
 
-/* @media only screen and (min-width: 768px) {
-.container-sing-up {
+.signup{
+    display: flex;
+    margin-top: 75px;
+}
+
+.section-sing-up {
+    width: 480px;
+    height: 578px;
+
+}
+
+@media only screen and (min-width: 768px) {
+.sign_up .container {
 max-width: 768px;
-display: flex;
 
 }
    
 }
 
 @media only screen and (min-width: 1280px) {
-.container-sing-up {
+.sign_up .container{
     max-width: 1280px;
-} */
-
-.section-sing-up {
-    width: 480px;
-    height: 578px;
-    top: 50%;
-    left: 50%;
-    margin-left: 100px;
-
-
 }
+}
+
+@media only screen and (min-width: 1440px) {
+.sign_up .container {
+        max-width: 1440px;
+    }
+    
+}
+
+
 
 .sign-logo {
     color: #FFF;
@@ -50,7 +60,9 @@ display: flex;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: -0.02em;
-    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
 }
 
 
@@ -155,8 +167,8 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0px;
     outline: transparent;
-    
     background-color: transparent;
+    text-align: ;
 
 
 }
@@ -241,14 +253,29 @@ display: flex;
 }
 
 .container-sing-up-foto {
-    flex-direction: row;
-    margin-left: 200px;
-    margin-right: 100px;
-    width: 50%;
-    display: flex;
-
-
+    display: none;
 }
+@media only screen and (min-width: 1280px){
+.container-sing-up-foto {
+
+        padding-left: 60px;
+        display: flex;
+        width: 540px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .container-sing-up-foto {
+
+        padding-left: 200px;
+        display: flex;
+        width: 560px;
+    }
+}
+
+
+
+
 
 .lens {
     width: 190px;
@@ -257,30 +284,47 @@ display: flex;
     top: 0;
     border-radius: 1000px;
     background: #BEA69E;
+    margin-top: 252px;
+    
+ 
+    
 }
 
 .camera {
     width: 350px;
     height: 540px;
+    margin-left: 20px;
     flex-shrink: 0;
     border-radius: 1000px;
     background: #1D1D1D;
+    margin-right: 100px;
+   
+    
 }
 
+.img-sign-one{
+width: 100%;
+padding-top: 63px;
 
-
-
-
-
-
-
-
-
-/* @media only screen and (min-width: 768px){
 
 }
 
-@media only screen and (min-width: 1280px){
+.img-sign-two{
+padding-top: 139px;
+height: auto;
+margin-left: 48px;
 
-} */
+    
+}
+ 
+
+  
+
+
+
+
+
+
+
+
 
