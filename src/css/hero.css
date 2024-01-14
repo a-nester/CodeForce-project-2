@@ -180,7 +180,8 @@
     align-items: center;
     flex-shrink: 0;
 }
-  
+
+
 .students-icon:nth-child(1) {
     z-index: 3;
 }
@@ -200,7 +201,7 @@
     fill: #FFF;     
 }
 
-.icon-star {
+.hero .icon-star-wrapper {
     padding: 12px;
     width: 44px;
     height: 44px;
@@ -212,13 +213,29 @@
     stroke: black;
     background-color: #BEA69E;      
 }
+
+@media screen and (min-width:768px) {
+    .hero .icon-star-wrapper {
+        width: 50px;
+        height: 50px;  
+    }
+    
+}
  
 .rewiews-text-block {
     gap: 12px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+
 }
+
+@media screen and (min-width:768px) {
+    .rewiews-text-block {
+        align-items: center;
+    }
+}
+
 
 .rew-block-text {
     display: flex;
