@@ -9,7 +9,6 @@ ol li {
 
 ol li::before {
   counter-increment: ol-numbers;
-  counter-increment: ;
   content: '0' counter(ol-numbers) '';
   position: absolute;
   left: 28px;
@@ -277,6 +276,7 @@ ol li::before {
 .cours-arrow {
   display: flex;
   width: 20px;
+
   height: 20px;
   stroke: rgba(255, 255, 255, 0.4);
   fill: transparent;
@@ -304,7 +304,7 @@ ol li::before {
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-  /letter-spacing: -0.28px;
+  letter-spacing: -0.28px;
   margin-top: 164px;
 }
 .course-text-fill {
