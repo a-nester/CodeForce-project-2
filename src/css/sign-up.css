@@ -253,22 +253,27 @@ max-width: 768px;
 }
 
 .container-sing-up-foto {
-    
-    padding-left: 200px;
-    display: flex;
-    width: 560px;
-    
-
+    display: none;
 }
+@media only screen and (min-width: 1280px){
+.container-sing-up-foto {
 
-@media only screen and (min-width: 320px) {
-    .container-sing-up-foto{
-        
-        display: none;
-
+        padding-left: 60px;
+        display: flex;
+        width: 540px;
     }
-
 }
+
+@media only screen and (min-width: 1440px) {
+    .container-sing-up-foto {
+
+        padding-left: 200px;
+        display: flex;
+        width: 560px;
+    }
+}
+
+
 
 
 
