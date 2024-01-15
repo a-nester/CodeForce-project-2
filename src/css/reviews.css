@@ -26,6 +26,7 @@
     margin-bottom: 40px;
 }
 
+
 /*.box-reviews{
     
     display: flex;
@@ -55,7 +56,7 @@
 }
 
 .reviewer-personality{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 10px;
@@ -66,10 +67,6 @@
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 10px;
-    /*T*
-    flex-direction: row;
-    justify-content: space-between;
-    */
 }
 
 .reviewer-name-status{
@@ -107,6 +104,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    gap: 4px;
 
     width: 100%;
 }
@@ -144,15 +142,26 @@
             padding-bottom: 50px;
         }
     
+        .box-reviews {
+            width: 640px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .box-reviewer-rating{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
         .section-header {
             margin-bottom: 50px;
         }
     
-        .reviewer-information {
-            flex-direction: row;
-            justify-content: space-between;
+        .reviews-card{
+            position: relative;
         }
-    
+        
         .reviewer-name-status {
             padding-top: 3px;
             padding-bottom: 3px;
@@ -163,7 +172,24 @@
         }
     
         .reviewer-status {
-            line-height: 1.5;
+            font-size: 14px;
+            line-height: 1.3;
+        }
+
+        .review-text {
+            text-align: left;
+            font-size: 16px;
+            letter-spacing: 1.25;
+        }
+
+        .star-icon-true{
+            width: 20px;
+            height: 20px;
+        }
+
+        .star-icon-false{
+            width: 20px;
+            height: 20px;
         }
 }
     
@@ -175,20 +201,26 @@
             padding-bottom: 75px;
         }
     
+        .box-reviews {
+            width: 100%;
+        }
+        
         .box-reviews-cards {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
-            align-items: center;
+            align-items: stretch;
             justify-content: center;
             gap: 20px;
         }
     
-        .reviews-card {
-            width: calc((100% - 24px) / 2);
-        }
-
         .hidden{
             display: contents;
         }
+}
+
+@media only screen and (min-width: 1440px){
+    .reviewer-information {
+        gap: 243px;
+    }
 }
