@@ -55,7 +55,7 @@ max-width: 768px;
 }
 
 .sign-up-text {
-    font-family: sans-serif;
+    font-family: DM Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
@@ -224,10 +224,10 @@ max-width: 768px;
     align-items: center;
     margin-top: 20px;
     color: #8E8F99;
-    font-family: Plus Jakarta Sans, sans-serif;
+    font-family:DM Sans, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.28;
     letter-spacing: 0em;
     text-align: left;
 
