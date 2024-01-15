@@ -55,16 +55,14 @@ max-width: 768px;
 }
 
 .sign-up-text {
-    font-family: sans-serif;
+    font-family: DM Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: -0.02em;
     padding-top: 20px;
     padding-bottom: 40px;
-
-    
-    
+ 
 }
 
 
@@ -183,8 +181,9 @@ max-width: 768px;
     letter-spacing: 0px;
     outline: transparent;
     background-color: transparent;
-    padding-left:  18px;
-    margin-top: 5px;
+    padding-left: 18px;
+    padding-top: 15px;
+    
     
    
 
@@ -204,6 +203,7 @@ max-width: 768px;
     outline: transparent;
     opacity: 0.7;
     
+    
  
     
 
@@ -222,13 +222,12 @@ max-width: 768px;
     align-items: center;
     margin-top: 20px;
     color: #8E8F99;
-    font-family: Plus Jakarta Sans, sans-serif;
+    font-family:DM Sans, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.28;
     letter-spacing: 0em;
     text-align: left;
-
 
 }
 
@@ -291,6 +290,7 @@ max-width: 768px;
         padding-left: 200px;
         display: flex;
         width: 560px;
+     
     }
 }
 
@@ -306,6 +306,7 @@ max-width: 768px;
     border-radius: 1000px;
     background: #BEA69E;
     margin-top: 252px;
+   
     
  
     
@@ -325,7 +326,8 @@ max-width: 768px;
 
 .img-sign-one{
 width: 100%;
-padding-top: 63px;
+padding-top: 80px;
+padding-right: 30px;
 
 
 }
