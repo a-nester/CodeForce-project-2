@@ -3,7 +3,6 @@
 
 
 .mentors .container {
-    /* margin: 0 auto; */
     max-width: 375px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -125,8 +124,8 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 1.2;
+    line-height: 1.2;
+    letter-spacing: 0;
     margin-bottom: 4px;
     margin-top: 16px;
 }
@@ -134,8 +133,8 @@
 @media only screen and (min-width: 768px) {
     .name-mentor {
         font-size: 28px;
-        line-height: 32px;
-        letter-spacing: 1.14;
+        line-height: 1.14;
+
 
     }
 }
@@ -159,16 +158,16 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
-    letter-spacing: -0.24px;
+    line-height: 1.33;
+    letter-spacing: -0.02;
 }
 
 
 @media only screen and (min-width: 768px) {
     .experience-mentor {
         font-size: 14px;
-        line-height: 18px;
-        letter-spacing: -0.28px;
+        line-height: 1.29;
+
 
     }
 }
@@ -180,8 +179,8 @@
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px;
-    letter-spacing: -1.12px;
+    line-height: 1.14;
+    letter-spacing: -0.04;
     margin-left: 0;
 }
 
@@ -189,8 +188,8 @@
     .title-mentors {
         color: #FFF;
         font-size: 48px;
-        line-height: 54px;
-        letter-spacing: -1.92px;
+        line-height: 1.13;
+
     }
 }
 
