@@ -1,50 +1,24 @@
 /*H2*/
 .reviews{
-    /*T*/
-    /*padding-top: 50px;
-    padding-bottom: 50px;*/
-
-    /*D12*/
-    /*padding-top: 75px;
-    padding-bottom: 75px;*/
-
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .section-header{
-    font-family: DM Sans;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 500;
-    line-height: 1.13;
+    line-height: 1.14;
     letter-spacing: -0.04em;
     text-align: left;
 
-    /*T
-    margin-bottom: 50px;*/
-
     margin-bottom: 40px;
 }
-
-
-/*.box-reviews{
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-*/
 
 .box-reviews-cards{
     width: 100%;
 }
 
 .reviews-card{
-    /*D*/
-    /*width: calc((100% - 24px) / 2);*/
     width: 100%;
     padding: 20px;
     border: 1px solid #FFFFFF33;
@@ -70,10 +44,6 @@
 }
 
 .reviewer-name-status{
-    /*T
-    padding-top: 3px;
-    padding-bottom: 3px;
-    */
     padding-top: 6px;
     padding-bottom: 6px;
 }
@@ -86,8 +56,6 @@
     line-height: 1.2;
     letter-spacing: 0em;
     color: #FFFFFF;
-    /*T
-    line-height: 1.4;*/
 }
 
 .reviewer-status{
@@ -96,8 +64,6 @@
     line-height: 1.3;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.5);
-    /*T
-    line-height: 1.5;*/
 }
 
 .reviewer-rating{
@@ -139,7 +105,7 @@
 @media only screen and (min-width: 768px) {
     .reviews {
             padding-top: 50px;
-            padding-bottom: 50px;
+            padding-bottom: 100px;
         }
     
         .box-reviews {
@@ -156,12 +122,14 @@
 
         .section-header {
             margin-bottom: 50px;
+            font-size: 48px;
+            line-height: 1.3;
         }
     
         .reviews-card{
             position: relative;
         }
-        
+
         .reviewer-name-status {
             padding-top: 3px;
             padding-bottom: 3px;
@@ -177,9 +145,8 @@
         }
 
         .review-text {
-            text-align: left;
             font-size: 16px;
-            letter-spacing: 1.25;
+            line-height:  1.25;
         }
 
         .star-icon-true{
@@ -198,7 +165,7 @@
 @media only screen and (min-width: 1280px) {
     .reviews {
             padding-top: 75px;
-            padding-bottom: 75px;
+            padding-bottom: 150px;
         }
     
         .box-reviews {
@@ -220,7 +187,5 @@
 }
 
 @media only screen and (min-width: 1440px){
-    .reviewer-information {
-        gap: 243px;
-    }
+
 }
