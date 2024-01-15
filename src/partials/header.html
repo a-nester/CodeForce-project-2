@@ -1,7 +1,7 @@
 <!-- HEADER -->
 
 <header class="header">
-  <div class="container">
+  <div class="container" data-aos="fade-down" data-aos-duration="1000">
     <div class="wrapper">
       <a href="index.html" class="logo-link" aria-label="Company logo">
         <svg class="header-logo" width="123" height="16">
@@ -11,10 +11,10 @@
       <nav class="navigation">
         <ul class="nav-list">
           <li>
-            <a class="nav-link" href="#about-us">About us</a>
+            <a class="nav-link bold" href="#about-us">About us</a>
           </li>
           <li>
-            <a class="nav-link" href="#courses">Our courses</a>
+            <a class="nav-link" href="#our-courses">Our courses</a>
           </li>
           <li>
             <a class="nav-link" href="#our-mentors">Our mentors</a>
@@ -51,31 +51,33 @@
 
   <div class="backdrop">
     <div class="burger-menu">
-      <button class="close-btn" type="button" aria-label="Close button">
-        <svg class="close-icon" width="32" height="32">
-          <use href="./img/icons.svg#icon-close"></use>
-        </svg>
-      </button>
+      <div class="menu-wrapper">
+        <button class="close-btn" type="button" aria-label="Close button">
+          <svg class="close-icon" width="32" height="32">
+            <use href="./img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
 
-      <nav class="mob-navigation">
-        <ul class="mob-nav-list">
-          <li>
-            <a class="nav-link accent" href="#about-us">About us</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#courses">Our courses</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#our-mentors">Our mentors</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#reviews">Reviews</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#contacts">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="mob-navigation">
+          <ul class="mob-nav-list">
+            <li>
+              <a class="nav-link accent" href="#about-us">About us</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#our-courses">Our courses</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#our-mentors">Our mentors</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <picture class="burger-menu-img">
         <source
           srcset="
@@ -96,6 +98,7 @@
           alt="Camera"
           width="476"
           height="480"
+          loading="lazy"
         />
       </picture>
     </div>
