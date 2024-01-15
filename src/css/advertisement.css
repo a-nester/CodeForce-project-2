@@ -5,6 +5,8 @@
 }
 .photo-skills {
   overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .photo-skills-inner {
@@ -13,7 +15,7 @@
   align-items: center;
   gap: 20px;
 }
-@keyframes marqueeLine {
+@keyframes running-line {
   from {
     transform: translateX(0);
   }
@@ -36,9 +38,9 @@
   padding: 20px 0;
   min-width: 100%;
   white-space: nowrap;
-  animation-name: marqueeLine;
-  animation-duration: 7s;
-  animation-timing-function: ease-in-out;
+  animation-name: running-line;
+  animation-duration: 5s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 @media only screen and (min-width: 768px) {
