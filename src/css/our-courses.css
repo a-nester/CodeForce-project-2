@@ -22,14 +22,11 @@ ol li::before {
   letter-spacing: -0.28px;
 }
 
-.courses {
-}
-
-.cours-container {
+/* .courses .container {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .cours-container {
@@ -259,15 +256,7 @@ ol li::before {
   cursor: pointer;
 }
 
-.cours-button:hover {
-  background-color: #bea69e;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.cours-button:focus > .cours-arrow {
-  fill: rgb(29, 153, 29);
-}
-
+.cours-button:hover,
 .cours-button:focus {
   background-color: #bea69e;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -276,10 +265,20 @@ ol li::before {
 .cours-arrow {
   display: flex;
   width: 20px;
-
   height: 20px;
   stroke: rgba(255, 255, 255, 0.4);
-  fill: transparent;
+  fill: rgba(255, 255, 255, 0.4);
+}
+
+.cours-button:hover .cours-arrow,
+.cours-button:focus .cours-arrow {
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+
+.cours-button:focus {
+  background-color: #bea69e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .course-inside {
