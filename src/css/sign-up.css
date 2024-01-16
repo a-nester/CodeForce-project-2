@@ -20,26 +20,10 @@
   }
 }
 
-.section-sing-up {
-    width: 480px;
-}
-
 @media only screen and (min-width: 768px) {
-    .sign_up .container {
-        max-width: 768px;
+    .section-sing-up {
+        width: 480px;
 }  
-}
-
-@media only screen and (min-width: 1280px) {
-    .sign_up .container{
-        max-width: 1280px;
-}
-}
-
-@media only screen and (min-width: 1440px) {
-.sign_up .container {
-        max-width: 1440px;
-    }  
 }
 
 .sign-logo {
@@ -253,15 +237,13 @@ line-height: 1.28;
     width: 100%;
     margin-left: -25px;
     margin-top: 35%;
-
-
 }
 
 .img-sign-two{
     padding-top: 139px;
     height: auto;
     margin-left: 48px;
-    
+
 }
  
 
