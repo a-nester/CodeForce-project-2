@@ -2,15 +2,15 @@
 
 
 
-.mentors .container {
-    max-width: 375px;
+.mentors {
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: 0 auto;
 
 }
 
 @media only screen and (min-width: 768px) {
-    .mentors .container {
+    .mentors {
         max-width: 768px;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -19,7 +19,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .mentors .container {
+    .mentors {
         max-width: 1280px;
         padding-top: 75px;
         padding-bottom: 75px;
@@ -27,7 +27,7 @@
 }
 
 @media only screen and (min-width: 1440px) {
-    .mentors .container {
+    .mentors {
         max-width: 1440px;
 
 
@@ -78,7 +78,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
     flex-basis: 185px;
     margin-left: auto;
     margin-right: auto;
@@ -125,7 +124,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0;
+    letter-spacing: normal;
     margin-bottom: 4px;
     margin-top: 16px;
 }
@@ -174,7 +173,7 @@
 
 .title-mentors {
     color: #FFF;
-
+    margin-bottom: 40px;
     font-family: DM Sans;
     font-size: 28px;
     font-style: normal;
