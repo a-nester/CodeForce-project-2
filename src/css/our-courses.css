@@ -20,27 +20,6 @@ ol li::before {
   letter-spacing: -0.02em;
 }
 
-@media only screen and (min-width: 768px) {
-  .cours-container {
-    max-width: 768px;
-    padding: 0 32px;
-    margin-bottom: 75px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .cours-container {
-    max-width: 1280px;
-    padding: 0 100px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .cours-container {
-    max-width: 1440px;
-  }
-}
-
 .course-titel {
   margin-top: 20px;
   margin-bottom: 40px;
