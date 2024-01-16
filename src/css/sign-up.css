@@ -36,23 +36,39 @@ max-width: 768px;
 .sign-logo {
     color: #FFF;
     font-family: DM Sans, sans-serif;
-    font-size: 48px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.12em;
     letter-spacing: -1.92px;
 }
 
+@media only screen and (min-width: 768px) {
+    .sign-logo{
+        max-width: 768px;
+        font-family: DM Sans;
+        font-size: 48px;
+        letter-spacing: -1.12px;
+    }
+
+}
 
 .sign-logo-part {
     color: #BEA69E;
     font-family: DM Sans, sans-serif;
-    font-size: 48px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 54px;
     letter-spacing: -1.92px;
 }
+@media only screen and (min-width: 768px) {
+  .sign-logo-part {
+      font-size: 48px;
+      line-height: 1.14;
+  }
+}
+
 
 .sign-up-text {
     font-family: DM Sans, sans-serif;
@@ -316,7 +332,6 @@ padding-right: 30px;
 padding-top: 139px;
 height: auto;
 margin-left: 48px;
-
     
 }
  
