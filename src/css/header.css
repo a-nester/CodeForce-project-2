@@ -288,7 +288,7 @@ padding: 20px;
   text-transform: uppercase;
 }
 
-.nav-link.accent {
+.mob-nav-list .nav-link:hover,
+.mob-nav-list .nav-link:focus {
   font-weight: 700;
 }
-
