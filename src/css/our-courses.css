@@ -14,19 +14,11 @@ ol li::before {
   left: 28px;
   top: 28px;
   color: rgba(255, 255, 255, 0.4);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
-
-/* .courses .container {
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-} */
 
 @media only screen and (min-width: 768px) {
   .cours-container {
@@ -77,8 +69,6 @@ ol li::before {
 @media only screen and (min-width: 1440px) {
   .course-titel {
     max-width: 1440px;
-    width: 100%;
-    justify-content: space-between;
   }
 }
 
@@ -88,71 +78,57 @@ ol li::before {
 
 .course-titel-up {
   color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -1.12px;
-  /* margin-top: 40px; */
+  line-height: 1.14;
+  letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
   .course-titel-up {
     color: #fff;
-    font-family: DM Sans;
     font-size: 48px;
-    font-style: normal;
     font-weight: 500;
-
-    line-height: 54px; /* 112.5% */
-    letter-spacing: -1.92px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
   }
 }
 
 .course-titel-down {
   color: #bea69e;
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -1.12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
 }
 
 @media only screen and (min-width: 768px) {
   .course-titel-down {
     color: #bea69e;
-    font-family: DM Sans;
     font-size: 48px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
   }
 }
 
 .course-titel-text {
   color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
   margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .course-titel-text {
     color: #fff;
-    font-family: DM Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 125% */
-    letter-spacing: -0.32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
     max-width: 381px;
   }
 }
@@ -224,8 +200,6 @@ ol li::before {
 }
 @media only screen and (min-width: 1280px) {
   .courses-part {
-    /* width: 347px; */
-    height: 452px;
     width: calc((100% - 240px) / 3);
   }
 }
@@ -248,7 +222,6 @@ ol li::before {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 32px;
   height: 32px;
-
   align-items: center;
   justify-content: center;
   border: 1px solid #1d1d1d;
@@ -274,6 +247,7 @@ ol li::before {
 .cours-button:focus .cours-arrow {
   fill: #ffffff;
   stroke: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cours-button:focus {
@@ -282,6 +256,16 @@ ol li::before {
 }
 
 .course-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 342px;
+}
+
+@media only screen and (min-width: 768px) {
+  .course-inside {
+    height: 388px;
+  }
 }
 
 .course-title-section {
@@ -289,29 +273,23 @@ ol li::before {
 
 .course-title {
   color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 1.14;
   padding-top: 60px;
 }
 .course-text {
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
   margin-top: 164px;
 }
 .course-text-fill {
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
