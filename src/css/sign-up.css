@@ -1,209 +1,130 @@
 
-.signup{
+.signup .container {
     display: flex;
-    margin-top: 75px;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .signup .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+    .signup .container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 }
 
 .section-sing-up {
     width: 480px;
-    height: 578px;
-
 }
 
 @media only screen and (min-width: 768px) {
-.sign_up .container {
-max-width: 768px;
-
-}
-   
+    .sign_up .container {
+        max-width: 768px;
+}  
 }
 
 @media only screen and (min-width: 1280px) {
-.sign_up .container{
-    max-width: 1280px;
+    .sign_up .container{
+        max-width: 1280px;
 }
 }
 
 @media only screen and (min-width: 1440px) {
 .sign_up .container {
         max-width: 1440px;
-    }
-    
+    }  
 }
-
-
 
 .sign-logo {
     color: #FFF;
     font-family: DM Sans, sans-serif;
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 1.12em;
-    letter-spacing: -1.92px;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
     .sign-logo{
-        max-width: 768px;
-        font-family: DM Sans;
         font-size: 48px;
-        letter-spacing: -1.12px;
+        line-height: 1.12;
     }
-
 }
 
 .sign-logo-part {
     color: #BEA69E;
     font-family: DM Sans, sans-serif;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.04em;
 }
 @media only screen and (min-width: 768px) {
   .sign-logo-part {
       font-size: 48px;
-      line-height: 1.14;
+      line-height: 1.12;
   }
 }
 
-
 .sign-up-text {
+    width: 295px;
+    height: 54px;
     font-family: DM Sans, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    margin-bottom: 41px;
  
 }
 @media only screen and (min-width: 768px) {
     .sign-up-text{
-        max-width: 768px;
+        width: 480px;
+        height: 40px;
         font-size: 16px;
-        line-height:1.28;
+        line-height:1.25;
+        margin-bottom: 40px;
     }
 }
 
-@media only screen and (min-width: 1280px) {
-    .sign-up-text {
-        max-width: 1280px;
-        font-size: 16px;
-        line-height: 1.28;
-        }
-}
-
-@media only screen and (min-width: 1440px) {
-    .sign-up-text {
-        max-width: 1440px;
-        font-size: 16px;
-        line-height: 1.28;
-        }
-
-}
-
-
-
-.form_list {
-    display: block;
-    flex-direction: column;
+.form_input {
     margin-bottom: 8px;
-    color: #2E2F42;
     width: 100%;
-    height: 100%;
-
-}
-
-
-.form-label {
-    color: #8E8F99;
-    font-family: Roboto, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.16;
-    letter-spacing: 0.48px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    margin-bottom: 4px;
-    display: block;
-    
-}
-
-.form_field {
-
-    position: relative;
-    color: #FFF;
-    font-family: DM Sans,sans-serif;
+    height: 60px;
+    font-family: DM Sans, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25;
-    padding-top: 5px;
-    
-}
-
-.form_input {
-    width: 100%;
-    
-    gap: 14px;
     border-radius: 12px;
     background-color: transparent;
     color: #FFF;
     border: 1px solid rgba(46, 47, 66, 0.4);
     padding-left: 18px;
-    padding-top: 20px;
-    padding-bottom: 19.5px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
-
-
 
 .form_input:focus {
     border-color: #FFFFFF;
-
 }
-
 
 .form_wrapper {
-
-    margin-bottom: 14px;
-
+    margin-bottom: 40px;
 }
-
-
-
-.form-comment {
-
-    color: #8E8F99;
-    font-family: Roboto, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.16;
-    letter-spacing: 0.48px;
-    padding-left: 24px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    display: block;
-    margin-bottom: 4px;
-
-}
-
-
 
 .message {
     resize: none;
     width: 100%;
     height: 120px;
-    flex-shrink: 0;
-    top: 302px;
     border-radius: 12px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     color: #FFFFFF;
@@ -216,7 +137,6 @@ max-width: 768px;
     background-color: transparent;
     padding-left: 18px;
     padding-top: 15px;
-    
 }
 
 .message:focus {
@@ -235,51 +155,29 @@ max-width: 768px;
     
 }
 
-
-.sing-up-user-privacy {
-    margin-bottom: 24px;
-}
-
-
-
 .privacy_label {
     display: block;
-    align-items: center;
     margin-top: 20px;
-    color: #8E8F99;
-    font-family:DM Sans, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
     line-height: 1.33;
-    letter-spacing: 0em;
     text-align: left;
-
 }
 
 @media only screen and (min-width: 768px) {
 .privacy_label {
 font-size: 14px;
 line-height: 1.28;
-
 }
-
 }
-
-
-
-
 
 .privacy-decor {
     text-decoration-line: underline;
     color: #8E8F99;
-
 }
 
-
 .button-sign-up {
-    display: block;
-    padding-top: 16px 216px;
-    gap: 40px;
+    display: block; 
     background-color: #FFFFFF;
     color: var(--black, #121212);
     font-family: DM Sans;
@@ -296,76 +194,73 @@ line-height: 1.28;
     min-width: 100%;
     margin: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .button-sign-up:hover,
 .button-sign-up:focus {
     background-color: #1D1D1D;
     color: #BEA69E;
-
 }
 
 .container-sing-up-foto {
     display: none;
 }
 @media only screen and (min-width: 1280px){
-.container-sing-up-foto {
-
-        padding-left: 60px;
+    .container-sing-up-foto {
         display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
         width: 540px;
+        height: 540px;  
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .container-sing-up-foto {
-
-        padding-left: 200px;
-        display: flex;
         width: 560px;
-     
     }
 }
 
-
-
-
-
 .lens {
-    width: 190px;
+    width: 180px;
     height: 288px;
     flex-shrink: 0;
-    top: 0;
     border-radius: 1000px;
-    background: #BEA69E;
-    margin-top: 252px;
-    
+    background: #BEA69E; 
+}
+
+@media only screen and (min-width: 1440px) {
+    .lens {
+        width: 190px;
+  }
 }
 
 .camera {
-    width: 350px;
+    width: 340px;
     height: 540px;
-    margin-left: 20px;
     flex-shrink: 0;
     border-radius: 1000px;
     background: #1D1D1D;
-    margin-right: 100px;
-    
+}
+
+@media only screen and (min-width: 1440px) {
+    .camera {
+        width: 350px;
+  }
 }
 
 .img-sign-one{
-width: 100%;
-margin-left: -25px;
-margin-top: 35%;
+    width: 100%;
+    margin-left: -25px;
+    margin-top: 35%;
 
 
 }
 
 .img-sign-two{
-padding-top: 139px;
-height: auto;
-margin-left: 48px;
+    padding-top: 139px;
+    height: auto;
+    margin-left: 48px;
     
 }
  
