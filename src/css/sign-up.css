@@ -55,14 +55,14 @@ max-width: 768px;
 }
 
 .sign-up-text {
-    font-family: sans-serif;
+    font-family: DM Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1.25;
     letter-spacing: -0.02em;
     padding-top: 20px;
     padding-bottom: 40px;
-    
+ 
 }
 
 
@@ -71,6 +71,8 @@ max-width: 768px;
     flex-direction: column;
     margin-bottom: 8px;
     color: #2E2F42;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -87,22 +89,25 @@ max-width: 768px;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
     display: block;
-
-
-
-
+    
 }
 
 .form_field {
 
     position: relative;
-
-
+    color: #FFF;
+    font-family: DM Sans,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25;
+    padding-top: 5px;
+    
 }
 
 .form_input {
     width: 100%;
-    height: 40px;
+    
     gap: 14px;
     border-radius: 12px;
     background-color: transparent;
@@ -121,7 +126,6 @@ max-width: 768px;
 
 .form_input:focus {
     border-color: #FFFFFF;
-
 
 }
 
@@ -148,6 +152,7 @@ max-width: 768px;
     letter-spacing: 0.04em;
     display: block;
     margin-bottom: 4px;
+
 }
 
 
@@ -160,7 +165,7 @@ max-width: 768px;
     top: 302px;
     border-radius: 12px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    color: #FFF;
+    color: #FFFFFF;
     font-family: DM Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -168,9 +173,9 @@ max-width: 768px;
     letter-spacing: 0px;
     outline: transparent;
     background-color: transparent;
-    text-align: ;
-
-
+    padding-left: 18px;
+    padding-top: 15px;
+    
 }
 
 .message:focus {
@@ -184,9 +189,9 @@ max-width: 768px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.2;
-    padding-left: 20.5px;
-    padding-top: 8px;
-
+    outline: transparent;
+    opacity: 0.7;
+    
 }
 
 
@@ -201,13 +206,12 @@ max-width: 768px;
     align-items: center;
     margin-top: 20px;
     color: #8E8F99;
-    font-family: Plus Jakarta Sans, sans-serif;
+    font-family:DM Sans, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.28;
     letter-spacing: 0em;
     text-align: left;
-
 
 }
 
@@ -270,6 +274,7 @@ max-width: 768px;
         padding-left: 200px;
         display: flex;
         width: 560px;
+     
     }
 }
 
@@ -286,8 +291,6 @@ max-width: 768px;
     background: #BEA69E;
     margin-top: 252px;
     
- 
-    
 }
 
 .camera {
@@ -298,13 +301,13 @@ max-width: 768px;
     border-radius: 1000px;
     background: #1D1D1D;
     margin-right: 100px;
-   
     
 }
 
 .img-sign-one{
 width: 100%;
-padding-top: 63px;
+padding-top: 80px;
+padding-right: 30px;
 
 
 }

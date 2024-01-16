@@ -204,7 +204,7 @@
 
 .burger-menu {
   width: 218px;
-  height: 100vh;
+  height: 100dvh;
   background-color: #BEA69E;
   position: fixed;
   top: 0;

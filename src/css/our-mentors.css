@@ -2,16 +2,15 @@
 
 
 
-.mentors .container {
-    /* margin: 0 auto; */
-    max-width: 375px;
+.mentors {
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: 0 auto;
 
 }
 
 @media only screen and (min-width: 768px) {
-    .mentors .container {
+    .mentors {
         max-width: 768px;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -20,7 +19,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .mentors .container {
+    .mentors {
         max-width: 1280px;
         padding-top: 75px;
         padding-bottom: 75px;
@@ -28,7 +27,7 @@
 }
 
 @media only screen and (min-width: 1440px) {
-    .mentors .container {
+    .mentors {
         max-width: 1440px;
 
 
@@ -79,7 +78,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
     flex-basis: 185px;
     margin-left: auto;
     margin-right: auto;
@@ -125,8 +123,8 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 1.2;
+    line-height: 1.2;
+    letter-spacing: normal;
     margin-bottom: 4px;
     margin-top: 16px;
 }
@@ -134,8 +132,8 @@
 @media only screen and (min-width: 768px) {
     .name-mentor {
         font-size: 28px;
-        line-height: 32px;
-        letter-spacing: 1.14;
+        line-height: 1.14;
+
 
     }
 }
@@ -159,29 +157,29 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
-    letter-spacing: -0.24px;
+    line-height: 1.33;
+    letter-spacing: -0.02;
 }
 
 
 @media only screen and (min-width: 768px) {
     .experience-mentor {
         font-size: 14px;
-        line-height: 18px;
-        letter-spacing: -0.28px;
+        line-height: 1.29;
+
 
     }
 }
 
 .title-mentors {
     color: #FFF;
-
+    margin-bottom: 40px;
     font-family: DM Sans;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px;
-    letter-spacing: -1.12px;
+    line-height: 1.14;
+    letter-spacing: -0.04;
     margin-left: 0;
 }
 
@@ -189,8 +187,8 @@
     .title-mentors {
         color: #FFF;
         font-size: 48px;
-        line-height: 54px;
-        letter-spacing: -1.92px;
+        line-height: 1.13;
+
     }
 }
 
