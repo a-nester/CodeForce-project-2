@@ -59,5 +59,20 @@ body ul {
 }
 
 .bg-wrapper, .footer {
-    background-image: url(../img/background-footer.png);
+    background-image: url(../img/background_mob.png);
+    
 }
+
+@media only screen and (min-width: 768px) {
+    .bg-wrapper, .footer {
+        background-image: url(../img/background_tab.png);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .bg-wrapper, .footer {
+    background-image: url(../img/background_desk.png);
+  }
+}
+
+
