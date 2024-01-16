@@ -32,9 +32,7 @@
   line-height: 1.14; /* 114.286% */
   letter-spacing: -0.02em;
   text-transform: uppercase;
-
   flex-shrink: 0;
-
   padding: 20px 0;
   min-width: 100%;
   white-space: nowrap;
