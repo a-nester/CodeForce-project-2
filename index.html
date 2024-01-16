@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/CodeForce-project-2/assets/index-84659b77.css">
+    <link rel="stylesheet" href="/CodeForce-project-2/assets/index-f9a86a25.css">
   </head>
   <body>
     <div class="bg-wrapper">
@@ -495,71 +495,82 @@
     </div>
 </section>
 
-      <section class="sign_up">
-<div class="container signup">
+      <section class="signup">
+  <div class="container">
     <div class="section-sing-up">
-        <h2 id="sign-up" class="sign-logo">Sign<span class="sign-logo-part"> Up</span> </h2>
-        <p class="sign-up-text">Please use the form below to contact us. Enter your name, email, and message and we'll
-            get back to you shortly.</p>
-        <form class="sign-form">
-            <div class="form_list">
-                <label class="form-label" for="user-name"> </label>
-                <div class="form_field">
-                    <input class="form_input" id="user-name" type="text" name="user-name" pattern="[A-Za-z]"
-                        placeholder="Enter your name">
+      <h2 id="sign-up" class="sign-logo">
+        Sign<span class="sign-logo-part"> Up</span>
+      </h2>
+      <p class="sign-up-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="sign-form">
+        <input
+          class="form_input"
+          id="user-name"
+          type="text"
+          name="user-name"
+          pattern="[A-Za-z]"
+          placeholder="Enter your name"
+          required
+        />
 
-                </div>
-            </div>
-            <div class="form_list">
-                <label class="form-label" for="user_phone"></label>
-                <div class="form_field">
-                    <input class="form_input" id="user-phone" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                        placeholder="Enter your email">
+        <input
+          class="form_input"
+          id="user-email"
+          type="email"
+          name="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          placeholder="Enter your email"
+          required
+        />
 
-                </div>
-            </div>
+        <div class="form_wrapper">
+          <label class="form-label" for="user-comment"></label>
+          <textarea
+            class="message"
+            id="user-comment"
+            name="user-comment"
+            rows="7"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+        <button class="button-sign-up" type="submit">Send</button>
 
-
-            <div class="form_wrapper">
-                <label class="form-label" for="user-comment"></label>
-                <textarea class="message" id="user-comment" name="user-comment" rows="7" placeholder="Message" 
-                    required></textarea>
-            </div>
-            <button class="button-sign-up" type="submit">Send</button>
-            <div class="sing-up-user-privacy">
-
-                <label class="privacy_label" for="user-privacy">
-                    By clicking on “Send” button, you agree to our
-                    <a class="privacy-decor" href="">Privacy Policy,</a>
-                    and allow Promodo to use this information for marketing purposes.
-                </label>
-
-            </div>
-
-
-        </form>
-
-
+        <label class="privacy_label" for="user-privacy">
+          By clicking on “Send” button, you agree to our
+          <a class="privacy-decor" href="">Privacy Policy,</a>
+          and allow Promodo to use this information for marketing purposes.
+        </label>
+      </form>
     </div>
-<div class="container-sing-up-foto">
-    <div class="lens">
-<picture>
-    <img class="img-sign-one" src="/CodeForce-project-2/assets/part_desk1440@1x-6b57312b.png" width="163" height="154" />
-</picture>
+    <div class="container-sing-up-foto">
+      <div class="lens">
+        <picture>
+          <img
+            class="img-sign-one"
+            src="/CodeForce-project-2/assets/part_desk1440@1x-6b57312b.png"
+            width="163"
+            height="154"
+          />
+        </picture>
+      </div>
+      <div class="camera">
+        <picture>
+          <img
+            class="img-sign-two"
+            src="/CodeForce-project-2/assets/camera_signup_desk1440@1x-4d8156dc.png"
+            width="254"
+            height="313"
+          />
+        </picture>
+      </div>
     </div>
-    <div class="camera">
-<picture>
-    <img class="img-sign-two" src="/CodeForce-project-2/assets/camera_signup_desk1440@1x-4d8156dc.png" width="254" height="313" />
-</picture>
-    </div>
-</div>
+  </div>
+</section>
 
-
-</div>
-
-
-    </section>
-    
 
       <section class="reviews" id="reviews">
   <div class="container">
