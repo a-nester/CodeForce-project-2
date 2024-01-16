@@ -72,7 +72,7 @@ max-width: 768px;
 
 .sign-up-text {
     font-family: DM Sans, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: -0.02em;
@@ -80,6 +80,31 @@ max-width: 768px;
     padding-bottom: 40px;
  
 }
+@media only screen and (min-width: 768px) {
+    .sign-up-text{
+        max-width: 768px;
+        font-size: 16px;
+        line-height:1.28;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .sign-up-text {
+        max-width: 1280px;
+        font-size: 16px;
+        line-height: 1.28;
+        }
+}
+
+@media only screen and (min-width: 1440px) {
+    .sign-up-text {
+        max-width: 1440px;
+        font-size: 16px;
+        line-height: 1.28;
+        }
+
+}
+
 
 
 .form_list {
@@ -225,9 +250,18 @@ max-width: 768px;
     font-family:DM Sans, sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.28;
+    line-height: 1.33;
     letter-spacing: 0em;
     text-align: left;
+
+}
+
+@media only screen and (min-width: 768px) {
+.privacy_label {
+font-size: 14px;
+line-height: 1.28;
+
+}
 
 }
 
@@ -322,8 +356,8 @@ max-width: 768px;
 
 .img-sign-one{
 width: 100%;
-padding-top: 80px;
-padding-right: 30px;
+margin-left: -25px;
+margin-top: 35%;
 
 
 }
