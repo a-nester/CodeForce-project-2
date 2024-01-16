@@ -193,7 +193,7 @@ ol li::before {
 
 @media only screen and (min-width: 768px) {
   .courses-part {
-    width: calc((100% - 64px) / 2);
+    width: calc((100% - 84px) / 2);
     height: 452px;
     margin: 0px;
   }
