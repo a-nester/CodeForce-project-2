@@ -1,23 +1,26 @@
-
-.signup .container {
-    display: flex;
-    justify-content: space-between;
+.signup {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
+
 @media only screen and (min-width: 768px) {
-    .signup .container {
+    .signup {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-    .signup .container {
+    .signup {
     padding-top: 75px;
     padding-bottom: 75px;
   }
+}
+
+.signup .container {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (min-width: 768px) {
@@ -158,6 +161,14 @@ line-height: 1.28;
 .privacy-decor {
     text-decoration-line: underline;
     color: #8E8F99;
+}
+
+.privacy-decor:hover {
+    color: #BEA69E;
+}
+
+.privacy-decor:focus {
+    color: #BEA69E;
 }
 
 .button-sign-up {

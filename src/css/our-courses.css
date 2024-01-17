@@ -21,7 +21,7 @@ ol li::before {
 }
 
 .course-titel {
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 40px;
 }
 
@@ -31,7 +31,7 @@ ol li::before {
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 50px;
   }
 }
@@ -41,7 +41,7 @@ ol li::before {
     max-width: 1280px;
     width: 100%;
     justify-content: space-between;
-    margin-top: 75px;
+    padding-top: 75px;
   }
 }
 
@@ -132,19 +132,19 @@ ol li::before {
   flex-direction: column;
   width: auto;
   padding-left: 0px;
+  margin: 0;
   gap: 20px;
 }
 
 @media only screen and (min-width: 768px) {
   .courses-list {
     flex-direction: row;
-    width: 768px;
     display: flex;
     flex-wrap: wrap;
   }
 }
 
-@media only screen and (min-width: 1280px) {
+/* @media only screen and (min-width: 1280px) {
   .courses-list {
     width: 1280px;
   }
@@ -154,7 +154,7 @@ ol li::before {
   .courses-list {
     width: 1440px;
   }
-}
+} */
 
 /* лишки */
 .courses-part {
@@ -172,14 +172,14 @@ ol li::before {
 
 @media only screen and (min-width: 768px) {
   .courses-part {
-    width: calc((100% - 84px) / 2);
+    width: calc((100% - 20px) / 2);
     height: 452px;
     margin: 0px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .courses-part {
-    width: calc((100% - 240px) / 3);
+    width: calc((100% - 40px) / 3);
   }
 }
 
