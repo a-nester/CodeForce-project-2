@@ -12,10 +12,10 @@
           id="user-name"
           type="text"
           name="user-name"
-          pattern="[A-Za-z]"
           placeholder="Enter your name"
+          pattern = "[A-Za-z0-9]{4,}"
           required
-        />
+        >
 
         <input
           class="form_input"
@@ -25,7 +25,7 @@
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
           placeholder="Enter your email"
           required
-        />
+        >
 
         <div class="form_wrapper">
           <label class="form-label" for="user-comment"></label>
@@ -35,17 +35,17 @@
             name="user-comment"
             rows="7"
             placeholder="Message"
-            required
           ></textarea>
         </div>
         <button class="button-sign-up" type="submit">Send</button>
+      </form>
 
         <label class="privacy_label" for="user-privacy">
           By clicking on “Send” button, you agree to our
           <a class="privacy-decor" href="">Privacy Policy,</a>
           and allow Promodo to use this information for marketing purposes.
         </label>
-      </form>
+      
     </div>
     <div class="container-sing-up-foto">
       <div class="lens">
