@@ -60,8 +60,7 @@
     color: #fff;
     font-style: normal;
     text-transform: uppercase;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-list-adr {
@@ -72,13 +71,10 @@
 
 .contacts-list-lnk:hover {
     color: #BEA69E;
-    text-shadow: .5px .5px .5px #BEA69E;
-    /* font-weight: 700; */
 }
 
 .contacts-list-lnk:focus {
     color: #BEA69E;
-    text-shadow: .5px .5px .5px #BEA69E;
 }
 
 .link-wrapper {
@@ -109,18 +105,15 @@
 .footer-social-lnk {
     color: #FFF;
     text-transform: uppercase;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-                text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);            
 }
 
 .footer-social-lnk:hover {
     color: #BEA69E;
-    text-shadow: .5px .5px .5px #BEA69E;
 }
 
 .footer-social-lnk:focus {
     color: #BEA69E;
-    text-shadow: .5px .5px .5px #BEA69E;
 }
 
 .footer-about-list {
@@ -191,20 +184,17 @@
     border: none;
     padding: 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscibe-btn:hover {
     background-color: #fff;
     color: #BEA69E;
-    font-weight: 700;
 }
 
 .subscibe-btn:focus {
     background-color: #fff;
     color: #BEA69E;
-    font-weight: 700;
 }
 
 .agreement {
@@ -214,23 +204,6 @@
     justify-content: space-between;
 }
 
-/* @media only screen and (min-width: 768px) {
-   .agreement {
-    gap: 399px;    
-  }
-} */
-
-/* @media only screen and (min-width: 1280px) {
-    .agreement {
-        gap: 773px;
-    }
-} */
-
-/* @media only screen and (min-width: 1440px) {
-    .agreement {
-            gap: 1044px;
-        }
-} */
 
 .privacy-block {
     display: flex;
