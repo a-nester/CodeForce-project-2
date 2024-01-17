@@ -56,7 +56,7 @@
 .title-span {
     color: #BEA69E;
     font-style: italic;
-    padding-bottom: 40px;
+
 }
 
 .hero-text {
@@ -65,7 +65,7 @@
     font-weight: 400;
     line-height: 1.28;
     letter-spacing: -0.02em;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -80,19 +80,19 @@
 
 @media screen and (min-width: 1280px) {
     .hero-text {
-        padding-bottom: 136px;
+        margin-bottom: 136px;
     }
 }
 
 .rewiews-hero-block {
-    padding-bottom: 31px;
+    margin-bottom: 31px;
     display: flex;
 }
 
 @media screen and (min-width:768px) {
     .rewiews-hero-block {
         display: inline-flex;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
         justify-content: center;
         align-items: flex-start;
         gap: 40px;  
@@ -116,12 +116,12 @@
 .users-img {
     display: flex;
     flex-direction: row;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 @media screen and (min-width: 768px) {
     .users-img {
-        padding-bottom: 0;
+        margin-bottom: 0;
         margin-right: 20px;
     }
 }
@@ -134,9 +134,14 @@
     flex-direction: row; 
 }
 
-.students-text:hover  {
+.students-text:hover {
     color: #BEA69E;
     transition: 250ms;
+}
+
+.students-text:focus {
+    color: #BEA69E;
+    transition: 250ms;  
 }
 
 @media screen and (min-width: 768px) {
