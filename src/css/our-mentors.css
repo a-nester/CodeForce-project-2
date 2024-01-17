@@ -1,6 +1,5 @@
 /* Our Mentors */
-
-
+/*#region */
 
 .mentors {
     padding-top: 40px;
@@ -45,9 +44,6 @@
     margin: 0 auto;
 }
 
-
-
-
 @media only screen and (min-width: 768px) {
     .list-mentors {
         max-width: 488px;
@@ -71,6 +67,8 @@
 
 
 }
+
+
 
 .card-mentor {
     display: flex;
@@ -99,6 +97,7 @@
 
 
 }
+
 
 /* text */
 .resume-mentor {
@@ -144,6 +143,8 @@
     }
 }
 
+
+
 .experience-mentor {
 
     color: rgba(255, 255, 255, 0.50);
@@ -151,7 +152,6 @@
     font-size: 12px;
     line-height: 1.33;
 }
-
 
 @media only screen and (min-width: 768px) {
     .experience-mentor {
@@ -161,6 +161,8 @@
 
     }
 }
+
+
 
 .title-mentors {
     margin-bottom: 40px;
@@ -186,3 +188,5 @@
 .style-mentors {
     color: #BEA69E;
 }
+
+/* #endregion */
