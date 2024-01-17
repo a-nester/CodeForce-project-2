@@ -20,8 +20,23 @@ ol li::before {
   letter-spacing: -0.02em;
 }
 
+.courses {
+  padding: 40px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .courses {
+      padding: 50px 0;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+  .courses {
+      padding: 75px 0;
+    }
+}
+
 .course-titel {
-  padding-top: 20px;
   margin-bottom: 40px;
 }
 
@@ -31,7 +46,6 @@ ol li::before {
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 50px;
     margin-bottom: 50px;
   }
 }
@@ -41,7 +55,6 @@ ol li::before {
     max-width: 1280px;
     width: 100%;
     justify-content: space-between;
-    padding-top: 75px;
   }
 }
 
@@ -55,13 +68,18 @@ ol li::before {
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+    .course-titel-cover {
+      margin-bottom: 0;
+    }
+}
+
 .course-titel-up {
   color: #fff;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
-  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -188,8 +206,7 @@ ol li::before {
   }
 }
 
-.cours-titel {
-}
+
 
 /* кнопка */
 .cours-button {
