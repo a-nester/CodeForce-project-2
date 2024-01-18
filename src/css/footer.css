@@ -124,7 +124,6 @@
 
 .sub-wrapper {
     display: flex;
-    gap: 8px;
     margin-bottom: 40px;
 }
 
@@ -138,12 +137,12 @@
     display: flex;
     width: 267px;
     height: 60px;
+    gap: 8px;
 }
 
 @media only screen and (min-width: 768px) {
     .subscibe-form {
-        width: 178px;
-    
+        width: 178px; 
   }
 }
 
@@ -185,7 +184,8 @@
     padding: 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    flex-shrink: 0;
+            }
 
 .subscibe-btn:hover {
     background-color: #fff;
