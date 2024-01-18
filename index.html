@@ -24,7 +24,7 @@
       rel="stylesheet"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/CodeForce-project-2/assets/index-f1f51a2c.css">
+    <link rel="stylesheet" href="/CodeForce-project-2/assets/index-47f5069f.css">
   </head>
   <body>
     <div class="bg-wrapper">
@@ -511,7 +511,7 @@
           id="user-name"
           type="text"
           name="user-name"
-          pattern="[A-Za-z]"
+          pattern="\w{3,20}"
           placeholder="Enter your name"
           required
         />
@@ -534,7 +534,6 @@
             name="user-comment"
             rows="7"
             placeholder="Message"
-            required
           ></textarea>
         </div>
         <button class="button-sign-up" type="submit">Send</button>
@@ -843,8 +842,8 @@
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
           placeholder="Enter your email"
         />
+        <button class="subscibe-btn" type="submit">Go</button>
       </form>
-      <button class="subscibe-btn" type="submit">Go</button>
     </div>
     <div class="agreement">
       <div class="privacy-block">
